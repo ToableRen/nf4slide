@@ -17,6 +17,15 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.7</maven.compiler.source>
         <maven.compiler.target>1.7</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>1.7</maven.compiler.source>
+        <maven.compiler.target>1.7</maven.compiler.target>
+        <struts2.version>2.5.14.1</struts2.version>
+        <spring.version>4.3.14.RELEASE</spring.version>
+        <hibernate.version>4.3.5.Final</hibernate.version>
+        <hibernate-common-annotations.version>4.0.5.Final</hibernate-common-annotations.version>
+        <hibernate-jpa.version>1.0.2.Final</hibernate-jpa.version>
+        <mysql.version>5.1.27</mysql.version>
     </properties>
 
     <dependencies>
@@ -52,13 +61,42 @@
         </dependency>
         <!--spring-->
 
-        <!--struts2-->
+        <!--json begin-->
+        <!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>2.9.0</version>
+        </dependency>
+        <!--json end-->
+
+        <!-- struts2 begin -->
         <dependency>
             <groupId>org.apache.struts</groupId>
             <artifactId>struts2-core</artifactId>
-            <version>2.3.32</version>
+            <version>${struts2.version}</version>
         </dependency>
-        <!--struts2-->
+        <dependency>
+            <groupId>org.apache.struts</groupId>
+            <artifactId>struts2-convention-plugin</artifactId>
+            <version>${struts2.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.struts</groupId>
+            <artifactId>struts2-json-plugin</artifactId>
+            <version>${struts2.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.struts</groupId>
+            <artifactId>struts2-config-browser-plugin</artifactId>
+            <version>${struts2.version}</version>
+        </dependency>
+        <!--<dependency>-->
+        <!--<groupId>org.apache.struts</groupId>-->
+        <!--<artifactId>struts2-spring-plugin</artifactId>-->
+        <!--<version>${struts2.version}</version>-->
+        <!--</dependency>-->
+        <!-- struts2 end -->
 
         <dependency>
             <groupId>junit</groupId>

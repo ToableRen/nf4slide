@@ -38,11 +38,15 @@ public class SlideDaoImpl {
         return rst;
     }
 
+    /**
+     * 返回被添加的slideid
+     */
     public static int addNewSlide(String userId) {
         int rst = -1;
 
         String sql = "insert into slides VALUES (?,?,?,'','','true')";
-        String slideId = String.valueOf(getMaxSlideId() + 1);
+        int slide_int = getMaxSlideId() + 1;
+        String slideId = String.valueOf(slide_int);
         try {
             Class.forName("com.mysql.jdbc.Driver");
         } catch (ClassNotFoundException e) {
@@ -60,6 +64,7 @@ public class SlideDaoImpl {
             stm.setString(3, DEFAULTNAME);
             System.out.println(stm);
             rst = stm.executeUpdate();
+            rst = slide_int;
             con.close();
         } catch (SQLException e) {
             System.out.println(e);

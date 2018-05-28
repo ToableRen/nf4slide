@@ -8,7 +8,7 @@ import java.sql.*;
 public class UserDaoImpl {
 
 
-    public static int addNewUser(UserVo user) {
+    public static String addNewUser(UserVo user) {
         int rst = 0;
 
         String sql = "insert into account VALUES (?,?,?,?)";
@@ -38,7 +38,7 @@ public class UserDaoImpl {
         }
 
 
-        return rst;
+        return userId;
     }
 
     public static int ftechMaxId() {

@@ -183,15 +183,15 @@ $(function addBindEvent() {
         //调用登录验证函数
         if (loginValidate()) {
             $.ajax({
-                url: "login.do",
+                url: "login",
                 type: "POST",
                 data: {
-                    user_name: $("#user_name").val(),
-                    user_password: $("#user_password").val()
+                    phone: $("#user_name").val(),
+                    password: $("#user_password").val()
                 },
                 success: function (data, status) {
-                    if (data == "true") {
-                        $("#user_login").submit();
+                    if (data == "loginSuccess") {
+                        window.open("toUserPage", "_self");
                     } else {
                         loginFailTip();
                     }
