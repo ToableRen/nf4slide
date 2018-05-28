@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="nf4slide:Web exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/nf4slide_Web_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="nf4slide/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="nf4slide" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
