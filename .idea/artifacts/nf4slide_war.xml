@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="nf4slide:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="nf4slide.war">
+      <element id="artifact" artifact-name="nf4slide:war exploded" />
+    </root>
+  </artifact>
+</component>
