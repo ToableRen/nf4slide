@@ -116,7 +116,7 @@ function addSlide(workplace, view, method, htmlSlide) {
     var tabs_id = "tabs-" + slideIdEx;
     var ExId = slideIdEx;
     //先加tabs的div loginBackground
-    $(workplace).append("<div id=\"" + tabs_id + "\" style=\"background:url(loginBackground/tableLine.png) no-repeat 1px 2px\"></div>");
+    $(workplace).append("<div id=\"" + tabs_id + "\" style=\"background:url(img/tableLine.png) no-repeat 1px 2px\"></div>");
     $("#" + tabs_id).addClass(" ui-tabs-panel ui-corner-bottom ui-widget-content ");
     $("#" + tabs_id).css("height", "100%");
     $("#" + tabs_id).css("width", "100%");
@@ -350,13 +350,110 @@ function addTextToSlide(id) {
 
 }
 
+
 /*添加图片*/
-function addImageToSlide(id, this_id) {
+function addImageToSlideByUpLoad(id, imgSrc) {
     var idExtend = imageExId;
     var idBase = "nf4-image-";
     imageExId++;
 
 
+    /*-------------------------------------先添加外层外面缩放和移动的div-----------------------------------*/
+    $(id).append("<div id=\"nf4-image-" + idExtend + "\"></div>");
+    $("#" + idBase + idExtend).addClass("nf4-image nf4-module"); //增加指定类名
+    $("#" + idBase + idExtend).css("position", "absolute");
+
+
+    //再往外层div里面添加具体负责移动、缩放的点, 以及编辑功能的div
+
+    //负责图片的image
+    $("#" + idBase + idExtend).append("<img data-selected=\"false\" id=\"imgPre-" + idExtend + "\">");
+    $("#imgPre-" + idExtend).attr("src", imgSrc);
+
+    //负责缩放的8个div
+    $("#" + idBase + idExtend).append("<div class=\"ui-resizable-handle ui-resizable-nw\"></div>");
+    $("#" + idBase + idExtend).append("<div class=\"ui-resizable-handle ui-resizable-ne\"></div>");
+    $("#" + idBase + idExtend).append("<div class=\"ui-resizable-handle ui-resizable-sw\"></div>");
+    $("#" + idBase + idExtend).append("<div class=\"ui-resizable-handle ui-resizable-se\"></div>");
+    $("#" + idBase + idExtend).append("<div class=\"ui-resizable-handle ui-resizable-n\"></div>");
+    $("#" + idBase + idExtend).append("<div class=\"ui-resizable-handle ui-resizable-s\"></div>");
+    $("#" + idBase + idExtend).append("<div class=\"ui-resizable-handle ui-resizable-e\"></div>");
+    $("#" + idBase + idExtend).append("<div class=\"ui-resizable-handle ui-resizable-w\"></div>");
+
+    //适应大小和位置
+
+    $("#imgPre-" + idExtend).css("height", "100%");
+    $("#imgPre-" + idExtend).css("width", "100%");
+    $("#imgPre-" + idExtend).css("cursor", "move");
+    $("#imgPre-" + idExtend).addClass("nf4-image-editor");
+    //最后外层div指定内层哪些div负责缩放和移动
+
+    $("#" + idBase + idExtend).resizable({
+        handles: {
+            'nw': '.ui-resizable-nw',
+            'ne': '.ui-resizable-ne',
+            'sw': '.ui-resizable-sw',
+            'se': '.ui-resizable-se',
+            'n': '.ui-resizable-n',
+            'e': '.ui-resizable-e',
+            's': '.ui-resizable-s',
+            'w': '.ui-resizable-w'
+        },
+        containment: id
+    });
+
+    /*新的拖动方式*/
+    $("#" + idBase + idExtend)
+        .draggable({
+            containment: id,
+            scroll: false
+        });
+    //右键菜单
+    $("#" + idBase + idExtend).contextPopup({
+        //title: '选项',
+        items: [
+
+            {
+                label: '删除此图片',
+                icon: 'http://120.24.186.116/Myicons/nf4-view-delete.png',
+                action: function () {
+                    $("#" + idBase + idExtend).remove();
+                }
+            },
+            {
+                label: '层次:置顶',
+                icon: 'http://120.24.186.116/Myicons/nf4-view-up.png',
+                action: function () {
+                    $("#" + idBase + idExtend).css("z-index", searchMaxZindex() + 1)
+                }
+            },
+            //null, /* null can be used to add a separator to the menu items */
+            {
+                label: '层次:置底',
+                icon: 'http://120.24.186.116/Myicons/nf4-view-down.png',
+                action: function () {
+                    $("#" + idBase + idExtend).css("z-index", searchMinZindex() - 1)
+                }
+            },
+            {
+                label: '属性',
+                icon: 'http://120.24.186.116/Myicons/nf4-attr.png',
+                action: function () {
+                    $("#ImageProperty").trigger("click");
+                    $("#" + idBase + idExtend).find("img")[0].setAttribute("data-selected", "true")
+                }
+            }
+        ]
+    });
+    $("#" + idBase + idExtend).css('z-index', searchMaxZindex() + 1);
+    /*8月23日夜改,添加鼠标右击事件 end edit*/
+}
+
+/*添加图片*/
+function addImageToSlide(id, this_id) {
+    var idExtend = imageExId;
+    var idBase = "nf4-image-";
+    imageExId++;
     /*-------------------------------------先添加外层外面缩放和移动的div-----------------------------------*/
     $(id).append("<div id=\"nf4-image-" + idExtend + "\"></div>");
     $("#" + idBase + idExtend).addClass("nf4-image nf4-module"); //增加指定类名
@@ -373,6 +470,7 @@ function addImageToSlide(id, this_id) {
     //负责图片的image
     $("#" + idBase + idExtend).append("<img data-selected=\"false\" id=\"imgPre-" + idExtend + "\">");
     nf4_rxk_preImg(this_id, "imgPre-" + idExtend);
+
 
     //负责缩放的8个div
     $("#" + idBase + idExtend).append("<div class=\"ui-resizable-handle ui-resizable-nw\"></div>");

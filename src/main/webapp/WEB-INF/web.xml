@@ -17,4 +17,15 @@
         <filter-name>struts2</filter-name>
         <url-pattern>/*</url-pattern>
     </filter-mapping>
+
+    <!--spring配置文件的位置-->
+    <context-param>
+        <param-name>contextConfigLocation</param-name>
+        <param-value>WEB-INF/classes/applicationContext.xml</param-value>
+    </context-param>
+
+    <!--使用了struts2-spring-plugin后，需要添加的代码-->
+    <listener>
+        <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+    </listener>
 </web-app>

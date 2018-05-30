@@ -2,7 +2,7 @@
 
 
 $("#nf4-register").click(function() {
-	window.location.href = "../WEB-INF/content/register.html";
+	window.location.href = "../register.html";
 });
 
 

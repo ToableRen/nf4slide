@@ -11,15 +11,15 @@
 
         <!--转到注册界面-->
         <action name="toRegisterPage">
-            <result name="success">/WEB-INF/content/register.html</result>
+            <result name="success">/register.html</result>
         </action>
 
         <action name="toUserPage">
-            <result name="success">/WEB-INF/content/usercenter.html</result>
+            <result name="success">/usercenter.html</result>
         </action>
 
         <action name="toSlideEditPage">
-            <result>/WEB-INF/content/edit.html</result>
+            <result>/edit.html</result>
         </action>
 
         <!--到登陆界面-->

@@ -1,4 +1,4 @@
-package com.qtu404.servlet;
+package com.qtu404.obsolete.servlet;
 
 import java.io.File;
 import java.io.IOException;

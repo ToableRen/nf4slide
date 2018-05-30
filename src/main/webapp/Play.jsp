@@ -1,6 +1,8 @@
-<%@page import="com.qtu404.obsolete.file.FileManager" %>
 <%@ page language="java" import="java.util.*" pageEncoding="UTF-8" %>
-<%@ page import="com.qtu404.present.dao.impl.SlideDaoImpl" %>
+<%@ page import="com.qtu404.present.slide.dao.impl.SlideDaoImpl" %>
+<%@ page import="com.qtu404.present.slide.dao.SlideDao" %>
+<%@ page import="org.springframework.context.ApplicationContext" %>
+<%@ page import="org.springframework.context.support.ClassPathXmlApplicationContext" %>
 <%
     String path = request.getContextPath();
     String basePath = request.getScheme() + "://" + request.getServerName() + ":" + request.getServerPort()
@@ -18,7 +20,12 @@
         flag = true;
     }
 %>
-<%=SlideDaoImpl.fetchSlideById(slideId).getPlay()%>
+<%
+    ApplicationContext applicationContext = new ClassPathXmlApplicationContext("applicationContext.xml");
+
+    SlideDao slideDao = (SlideDao) applicationContext.getBean("slideDao");
+%>
+<%= slideDao.fetchSlideById(slideId).getPlay()%>
 <div id="dialog-form" class="container" title="网址分享"></div>
 <link href="./css/plugin/jquery-ui_modify.min.css" rel="stylesheet">
 <script src="./js/plugin/jquery-3.2.1.min.js" type="text/javascript"></script>
@@ -44,6 +51,7 @@
     $("#danmu-send-place-send").click(function () {
         bullet_websocket.send(<%=userId%> +":" + <%=slideId%> +":" + $("#danmu-send-place-text").val());//发送给服务器
     });
+
     var damoo = new Damoo('danmuPlace', 'dm-canvas', 20);//初始化弹幕
     damoo.play();//激活弹幕
     var bullet_websocket = null;
