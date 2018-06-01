@@ -2,731 +2,51 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="nf4slide:war" />
       <artifact name="nf4slide:war exploded" />
     </artifacts-to-build>
   </component>
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/main/webapp/js/playPageLib.js" line="198" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="38043f69-e535-4612-b754-b3fe1e289e7a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugin/webuploader-0.1.5/Uploader.swf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_mchange_c3p0_0_9_5_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_mchange_mchange_commons_java_0_2_11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_27.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_struts_struts2_spring_plugin_2_5_14_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_4_3_14_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_14_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_14_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_4_3_14_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_14_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/qtu404/obsolete/file/FileManage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/qtu404/present/log/dao/LogDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/qtu404/present/log/service/LogService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/qtu404/present/log/service/impl/LogServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/qtu404/present/slide/action/ImgAction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/qtu404/present/slide/dao/SlideDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/qtu404/present/slide/service/SlideService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/qtu404/present/slide/service/impl/SlideServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/qtu404/present/slide/vo/SlideRowMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/qtu404/present/user/dao/UserDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/qtu404/present/user/service/UserService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/qtu404/present/user/service/impl/UserServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/qtu404/present/user/vo/UserRowMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/nf4_eidt_script_wildhunt_unique.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugin/webuploader-0.1.5/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugin/webuploader-0.1.5/webuploader.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugin/webuploader-0.1.5/webuploader.custom.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugin/webuploader-0.1.5/webuploader.custom.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugin/webuploader-0.1.5/webuploader.fis.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugin/webuploader-0.1.5/webuploader.flashonly.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugin/webuploader-0.1.5/webuploader.flashonly.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugin/webuploader-0.1.5/webuploader.html5only.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugin/webuploader-0.1.5/webuploader.html5only.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugin/webuploader-0.1.5/webuploader.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugin/webuploader-0.1.5/webuploader.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugin/webuploader-0.1.5/webuploader.noimage.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugin/webuploader-0.1.5/webuploader.noimage.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugin/webuploader-0.1.5/webuploader.nolog.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugin/webuploader-0.1.5/webuploader.nolog.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugin/webuploader-0.1.5/webuploader.withoutimage.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugin/webuploader-0.1.5/webuploader.withoutimage.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/test.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/artifacts/nf4slide_Web_exploded.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/qtu404/present/dao/BaseDao.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/qtu404/present/action/Config.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/qtu404/present/action/SlideAction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/qtu404/present/action/UserAction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/qtu404/present/dao/BaseDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/qtu404/present/dao/DBConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/qtu404/present/dao/impl/LogDaoImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/qtu404/present/dao/impl/SlideDaoImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/qtu404/present/dao/impl/UserDaoImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/qtu404/present/domain/LogVo.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/qtu404/present/domain/SlideVo.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/qtu404/present/domain/UserVo.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/qtu404/unit/Parameter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/qtu404/unit/email/EmailSender.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/qtu404/unit/email/demo/AdminStrategy.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/qtu404/unit/email/demo/Demo.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/qtu404/unit/email/demo/SigninMessage.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/qtu404/unit/email/message/AbstractMessage.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/qtu404/unit/email/message/Message.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/qtu404/unit/email/strategy/AbstractStrategy.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/qtu404/unit/email/strategy/Strategy.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/qtu404/unit/sms/SMSsender.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/qtu404/unit/sms/SmsDemo.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/qtu404/unit/sms/message/Message.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/qtu404/unit/sms/strategy/Strategy.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/Play.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/WEB-INF/classes/com/qtu404/obsolete/dataBase/DataBaseManager.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/WEB-INF/classes/com/qtu404/obsolete/file/FileManager.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/WEB-INF/classes/com/qtu404/present/action/Config.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/WEB-INF/classes/com/qtu404/present/action/SlideAction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/WEB-INF/classes/com/qtu404/present/action/UserAction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/WEB-INF/classes/com/qtu404/present/dao/BaseDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/WEB-INF/classes/com/qtu404/present/dao/DBConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/WEB-INF/classes/com/qtu404/present/dao/impl/LogDaoImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/WEB-INF/classes/com/qtu404/present/dao/impl/SlideDaoImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/WEB-INF/classes/com/qtu404/present/dao/impl/UserDaoImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/WEB-INF/classes/com/qtu404/present/domain/LogVo.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/WEB-INF/classes/com/qtu404/present/domain/SlideVo.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/WEB-INF/classes/com/qtu404/present/domain/UserVo.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/WEB-INF/classes/com/qtu404/unit/Parameter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/WEB-INF/classes/com/qtu404/unit/email/EmailSender.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/WEB-INF/classes/com/qtu404/unit/email/demo/AdminStrategy.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/WEB-INF/classes/com/qtu404/unit/email/demo/Demo.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/WEB-INF/classes/com/qtu404/unit/email/demo/SigninMessage.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/WEB-INF/classes/com/qtu404/unit/email/message/AbstractMessage.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/WEB-INF/classes/com/qtu404/unit/email/message/Message.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/WEB-INF/classes/com/qtu404/unit/email/strategy/AbstractStrategy.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/WEB-INF/classes/com/qtu404/unit/email/strategy/Strategy.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/WEB-INF/classes/com/qtu404/unit/sms/SMSsender.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/WEB-INF/classes/com/qtu404/unit/sms/SmsDemo.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/WEB-INF/classes/com/qtu404/unit/sms/message/Message.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/WEB-INF/classes/com/qtu404/unit/sms/strategy/Strategy.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/WEB-INF/classes/struts.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/WEB-INF/content/edit.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/WEB-INF/content/register.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/WEB-INF/content/usercenter.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/WEB-INF/lib/aliyun-java-sdk-core-3.2.8.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/WEB-INF/lib/aliyun-java-sdk-dysmsapi-1.1.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/WEB-INF/lib/asm-5.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/WEB-INF/lib/asm-commons-5.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/WEB-INF/lib/asm-tree-5.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/WEB-INF/lib/commons-fileupload-1.3.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/WEB-INF/lib/commons-fileupload-1.3.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/WEB-INF/lib/commons-io-2.5.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/WEB-INF/lib/commons-lang3-3.6.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/WEB-INF/lib/commons-logging-1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/WEB-INF/lib/freemarker-2.3.26-incubating.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/WEB-INF/lib/jackson-annotations-2.9.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/WEB-INF/lib/jackson-core-2.9.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/WEB-INF/lib/jackson-databind-2.9.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/WEB-INF/lib/javassist-3.20.0-GA.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/WEB-INF/lib/javax.mail-api-1.5.6.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/WEB-INF/lib/log4j-api-2.9.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/WEB-INF/lib/mysql-connector-java-5.1.42-bin.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/WEB-INF/lib/ognl-3.1.15.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/WEB-INF/lib/poi-3.12-20150511.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/WEB-INF/lib/poi-examples-3.12-20150511.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/WEB-INF/lib/poi-excelant-3.12-20150511.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/WEB-INF/lib/poi-ooxml-3.12-20150511.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/WEB-INF/lib/poi-ooxml-schemas-3.12-20150511.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/WEB-INF/lib/poi-scratchpad-3.12-20150511.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/WEB-INF/lib/spring-aop-4.3.8.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/WEB-INF/lib/spring-beans-4.3.8.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/WEB-INF/lib/spring-context-4.3.8.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/WEB-INF/lib/spring-context-support-4.3.8.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/WEB-INF/lib/spring-core-4.3.8.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/WEB-INF/lib/spring-expression-4.3.8.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/WEB-INF/lib/struts2-config-browser-plugin-2.5.14.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/WEB-INF/lib/struts2-convention-plugin-2.5.14.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/WEB-INF/lib/struts2-core-2.5.14.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/WEB-INF/lib/struts2-json-plugin-2.5.14.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/WEB-INF/lib/xmlbeans-2.6.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/WEB-INF/web.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/css/font/css/font-awesome.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/css/font/css/font-awesome.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/css/font/fonts/FontAwesome.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/css/font/fonts/fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/css/font/fonts/fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/css/font/fonts/fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/css/font/fonts/fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/css/font/fonts/fontawesome-webfont.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/css/font/less/animated.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/css/font/less/bordered-pulled.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/css/font/less/core.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/css/font/less/fixed-width.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/css/font/less/font-awesome.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/css/font/less/icons.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/css/font/less/larger.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/css/font/less/list.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/css/font/less/mixins.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/css/font/less/path.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/css/font/less/rotated-flipped.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/css/font/less/screen-reader.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/css/font/less/stacked.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/css/font/less/variables.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/css/font/scss/_animated.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/css/font/scss/_bordered-pulled.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/css/font/scss/_core.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/css/font/scss/_fixed-width.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/css/font/scss/_icons.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/css/font/scss/_larger.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/css/font/scss/_list.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/css/font/scss/_mixins.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/css/font/scss/_path.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/css/font/scss/_rotated-flipped.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/css/font/scss/_screen-reader.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/css/font/scss/_stacked.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/css/font/scss/_variables.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/css/font/scss/font-awesome.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/css/index.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/css/jquery-confirm.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/css/login/login.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/css/login/plugin/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/css/login/plugin/font-awesome-4.7.0/css/font-awesome.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/css/login/plugin/font-awesome-4.7.0/css/font-awesome.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/css/login/plugin/font-awesome-4.7.0/fonts/FontAwesome.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/css/login/plugin/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/css/login/plugin/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/css/login/plugin/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/css/login/plugin/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/css/login/plugin/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/css/login/plugin/font-awesome-4.7.0/less/animated.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/css/login/plugin/font-awesome-4.7.0/less/bordered-pulled.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/css/login/plugin/font-awesome-4.7.0/less/core.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/css/login/plugin/font-awesome-4.7.0/less/fixed-width.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/css/login/plugin/font-awesome-4.7.0/less/font-awesome.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/css/login/plugin/font-awesome-4.7.0/less/icons.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/css/login/plugin/font-awesome-4.7.0/less/larger.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/css/login/plugin/font-awesome-4.7.0/less/list.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/css/login/plugin/font-awesome-4.7.0/less/mixins.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/css/login/plugin/font-awesome-4.7.0/less/path.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/css/login/plugin/font-awesome-4.7.0/less/rotated-flipped.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/css/login/plugin/font-awesome-4.7.0/less/screen-reader.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/css/login/plugin/font-awesome-4.7.0/less/stacked.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/css/login/plugin/font-awesome-4.7.0/less/variables.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/css/login/plugin/font-awesome-4.7.0/scss/_animated.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/css/login/plugin/font-awesome-4.7.0/scss/_bordered-pulled.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/css/login/plugin/font-awesome-4.7.0/scss/_core.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/css/login/plugin/font-awesome-4.7.0/scss/_fixed-width.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/css/login/plugin/font-awesome-4.7.0/scss/_icons.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/css/login/plugin/font-awesome-4.7.0/scss/_larger.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/css/login/plugin/font-awesome-4.7.0/scss/_list.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/css/login/plugin/font-awesome-4.7.0/scss/_mixins.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/css/login/plugin/font-awesome-4.7.0/scss/_path.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/css/login/plugin/font-awesome-4.7.0/scss/_rotated-flipped.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/css/login/plugin/font-awesome-4.7.0/scss/_screen-reader.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/css/login/plugin/font-awesome-4.7.0/scss/_stacked.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/css/login/plugin/font-awesome-4.7.0/scss/_variables.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/css/login/plugin/font-awesome-4.7.0/scss/font-awesome.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/css/nf4-login.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/css/nf4-style-dx.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/css/plugin/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/css/plugin/jquery-ui_modify.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/css/prefixfree.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/css/usercenter.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/home.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/img/PPT.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/img/PPT.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/img/PPT1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/img/avator/avator_1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/img/avator/avator_10.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/img/avator/avator_11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/img/avator/avator_12.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/img/avator/avator_13.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/img/avator/avator_14.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/img/avator/avator_15.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/img/avator/avator_16.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/img/avator/avator_17.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/img/avator/avator_18.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/img/avator/avator_19.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/img/avator/avator_2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/img/avator/avator_20.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/img/avator/avator_21.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/img/avator/avator_22.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/img/avator/avator_23.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/img/avator/avator_24.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/img/avator/avator_25.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/img/avator/avator_26.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/img/avator/avator_27.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/img/avator/avator_28.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/img/avator/avator_29.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/img/avator/avator_3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/img/avator/avator_30.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/img/avator/avator_31.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/img/avator/avator_32.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/img/avator/avator_33.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/img/avator/avator_34.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/img/avator/avator_35.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/img/avator/avator_36.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/img/avator/avator_37.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/img/avator/avator_38.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/img/avator/avator_39.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/img/avator/avator_4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/img/avator/avator_40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/img/avator/avator_41.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/img/avator/avator_42.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/img/avator/avator_43.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/img/avator/avator_44.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/img/avator/avator_45.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/img/avator/avator_46.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/img/avator/avator_47.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/img/avator/avator_48.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/img/avator/avator_49.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/img/avator/avator_5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/img/avator/avator_50.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/img/avator/avator_51.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/img/avator/avator_52.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/img/avator/avator_53.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/img/avator/avator_54.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/img/avator/avator_55.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/img/avator/avator_56.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/img/avator/avator_57.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/img/avator/avator_58.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/img/avator/avator_59.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/img/avator/avator_6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/img/avator/avator_60.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/img/avator/avator_61.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/img/avator/avator_62.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/img/avator/avator_63.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/img/avator/avator_64.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/img/avator/avator_65.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/img/avator/avator_66.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/img/avator/avator_7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/img/avator/avator_8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/img/avator/avator_9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/img/bgImg_0.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/img/bgImg_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/img/bgImg_2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/img/bgImg_3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/img/bgImg_4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/img/bgImg_5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/img/bgImg_6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/img/bgImg_7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/img/bgImg_8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/img/bgImg_9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/img/damoo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/img/mobile/bgImg_0.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/img/mobile/bgImg_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/img/mobile/bgImg_2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/img/mobile/bgImg_3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/img/mobile/bgImg_4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/img/mobile/bgImg_5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/img/mobile/bgImg_6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/img/mobile/bgImg_7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/img/mobile/bgImg_8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/img/mobile/bgImg_9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/img/plane.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/img/scroll.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/img/slide.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/img/tableLine.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/damoo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/html2canvas.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/index_js.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/jquery-confirm.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/login/login.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/login/plugin/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/login/plugin/jquery-3.2.1.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/login/plugin/popper.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/nf4-login.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/nf4-playSlide.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/nf4-script-dx.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/CHANGES.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/LICENSE.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/adapters/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/build-config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/ckeditor.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/contents.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/lang/en.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/lang/zh-cn.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/codesnippet/dialogs/codesnippet.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/codesnippet/lib/highlight/CHANGES.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/codesnippet/lib/highlight/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/codesnippet/lib/highlight/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/codesnippet/lib/highlight/README.ru.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/codesnippet/lib/highlight/highlight.pack.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/codesnippet/lib/highlight/styles/arta.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/codesnippet/lib/highlight/styles/ascetic.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/codesnippet/lib/highlight/styles/atelier-dune.dark.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/codesnippet/lib/highlight/styles/atelier-dune.light.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/codesnippet/lib/highlight/styles/atelier-forest.dark.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/codesnippet/lib/highlight/styles/atelier-forest.light.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/codesnippet/lib/highlight/styles/atelier-heath.dark.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/codesnippet/lib/highlight/styles/atelier-heath.light.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/codesnippet/lib/highlight/styles/atelier-lakeside.dark.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/codesnippet/lib/highlight/styles/atelier-lakeside.light.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/codesnippet/lib/highlight/styles/atelier-seaside.dark.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/codesnippet/lib/highlight/styles/atelier-seaside.light.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/codesnippet/lib/highlight/styles/brown_paper.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/codesnippet/lib/highlight/styles/brown_papersq.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/codesnippet/lib/highlight/styles/dark.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/codesnippet/lib/highlight/styles/default.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/codesnippet/lib/highlight/styles/docco.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/codesnippet/lib/highlight/styles/far.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/codesnippet/lib/highlight/styles/foundation.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/codesnippet/lib/highlight/styles/github.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/codesnippet/lib/highlight/styles/googlecode.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/codesnippet/lib/highlight/styles/idea.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/codesnippet/lib/highlight/styles/ir_black.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/codesnippet/lib/highlight/styles/magula.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/codesnippet/lib/highlight/styles/mono-blue.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/codesnippet/lib/highlight/styles/monokai.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/codesnippet/lib/highlight/styles/monokai_sublime.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/codesnippet/lib/highlight/styles/obsidian.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/codesnippet/lib/highlight/styles/paraiso.dark.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/codesnippet/lib/highlight/styles/paraiso.light.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/codesnippet/lib/highlight/styles/pojoaque.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/codesnippet/lib/highlight/styles/pojoaque.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/codesnippet/lib/highlight/styles/railscasts.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/codesnippet/lib/highlight/styles/rainbow.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/codesnippet/lib/highlight/styles/school_book.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/codesnippet/lib/highlight/styles/school_book.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/codesnippet/lib/highlight/styles/solarized_dark.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/codesnippet/lib/highlight/styles/solarized_light.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/codesnippet/lib/highlight/styles/sunburst.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/codesnippet/lib/highlight/styles/tomorrow-night-blue.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/codesnippet/lib/highlight/styles/tomorrow-night-bright.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/codesnippet/lib/highlight/styles/tomorrow-night-eighties.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/codesnippet/lib/highlight/styles/tomorrow-night.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/codesnippet/lib/highlight/styles/tomorrow.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/codesnippet/lib/highlight/styles/vs.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/codesnippet/lib/highlight/styles/xcode.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/codesnippet/lib/highlight/styles/zenburn.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/colordialog/dialogs/colordialog.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/colordialog/dialogs/colordialog.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/dialog/dialogDefinition.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/docprops/dialogs/docprops.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/eqneditor/_notes/dwsync.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/eqneditor/dialogs/_notes/dwsync.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/eqneditor/dialogs/eqneditor.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/eqneditor/dialogs/lang/_notes/dwsync.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/eqneditor/dialogs/lang/en.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/icons_hidpi.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/pbckcode/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/pbckcode/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/pbckcode/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/pbckcode/dialogs/PBSyntaxHighlighter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/pbckcode/dialogs/pbckcode.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/pbckcode/dialogs/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/specialchar/dialogs/lang/_translationstatus.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/specialchar/dialogs/lang/af.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/specialchar/dialogs/lang/ar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/specialchar/dialogs/lang/az.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/specialchar/dialogs/lang/bg.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/specialchar/dialogs/lang/ca.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/specialchar/dialogs/lang/cs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/specialchar/dialogs/lang/cy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/specialchar/dialogs/lang/da.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/specialchar/dialogs/lang/de-ch.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/specialchar/dialogs/lang/de.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/specialchar/dialogs/lang/el.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/specialchar/dialogs/lang/en-au.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/specialchar/dialogs/lang/en-ca.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/specialchar/dialogs/lang/en-gb.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/specialchar/dialogs/lang/en.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/specialchar/dialogs/lang/eo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/specialchar/dialogs/lang/es-mx.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/specialchar/dialogs/lang/es.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/specialchar/dialogs/lang/et.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/specialchar/dialogs/lang/eu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/specialchar/dialogs/lang/fa.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/specialchar/dialogs/lang/fi.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/specialchar/dialogs/lang/fr-ca.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/specialchar/dialogs/lang/fr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/specialchar/dialogs/lang/gl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/specialchar/dialogs/lang/he.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/specialchar/dialogs/lang/hr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/specialchar/dialogs/lang/hu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/specialchar/dialogs/lang/id.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/specialchar/dialogs/lang/it.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/specialchar/dialogs/lang/ja.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/specialchar/dialogs/lang/km.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/specialchar/dialogs/lang/ko.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/specialchar/dialogs/lang/ku.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/specialchar/dialogs/lang/lt.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/specialchar/dialogs/lang/lv.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/specialchar/dialogs/lang/nb.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/specialchar/dialogs/lang/nl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/specialchar/dialogs/lang/no.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/specialchar/dialogs/lang/oc.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/specialchar/dialogs/lang/pl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/specialchar/dialogs/lang/pt-br.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/specialchar/dialogs/lang/pt.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/specialchar/dialogs/lang/ru.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/specialchar/dialogs/lang/si.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/specialchar/dialogs/lang/sk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/specialchar/dialogs/lang/sl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/specialchar/dialogs/lang/sq.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/specialchar/dialogs/lang/sv.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/specialchar/dialogs/lang/th.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/specialchar/dialogs/lang/tr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/specialchar/dialogs/lang/tt.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/specialchar/dialogs/lang/ug.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/specialchar/dialogs/lang/uk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/specialchar/dialogs/lang/vi.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/specialchar/dialogs/lang/zh-cn.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/specialchar/dialogs/lang/zh.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/specialchar/dialogs/specialchar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/uicolor/dialogs/uicolor.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/uicolor/dialogs/uicolor.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/plugins/widget/images/handle.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/samples/css/samples.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/samples/img/github-top.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/samples/img/header-bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/samples/img/header-separator.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/samples/img/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/samples/img/navigation-tip.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/samples/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/samples/js/sample.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/samples/js/sf.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/samples/old/ajax.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/samples/old/api.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/samples/old/appendto.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/samples/old/assets/inlineall/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/samples/old/assets/outputxhtml/outputxhtml.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/samples/old/assets/posteddata.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/samples/old/assets/sample.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/samples/old/assets/uilanguages/languages.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/samples/old/codesnippet/codesnippet.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/samples/old/datafiltering.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/samples/old/dialog/assets/my_dialog.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/samples/old/dialog/dialog.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/samples/old/divreplace.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/samples/old/docprops/docprops.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/samples/old/enterkey/enterkey.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/samples/old/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/samples/old/inlineall.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/samples/old/inlinebycode.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/samples/old/inlinetextarea.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/samples/old/jquery.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/samples/old/readonly.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/samples/old/replacebyclass.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/samples/old/replacebycode.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/samples/old/sample.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/samples/old/sample.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/samples/old/sample_posteddata.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/samples/old/tabindex.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/samples/old/toolbar/toolbar.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/samples/old/uicolor.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/samples/old/uicolor/uicolor.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/samples/old/uilanguages.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/samples/old/wysiwygarea/fullpage.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/samples/old/xhtmlstyle.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/samples/toolbarconfigurator/css/fontello.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/samples/toolbarconfigurator/font/LICENSE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/samples/toolbarconfigurator/font/config.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/samples/toolbarconfigurator/font/fontello.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/samples/toolbarconfigurator/font/fontello.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/samples/toolbarconfigurator/font/fontello.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/samples/toolbarconfigurator/font/fontello.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/samples/toolbarconfigurator/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/samples/toolbarconfigurator/js/abstracttoolbarmodifier.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/samples/toolbarconfigurator/js/fulltoolbareditor.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/samples/toolbarconfigurator/js/toolbarmodifier.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/samples/toolbarconfigurator/js/toolbartextmodifier.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/samples/toolbarconfigurator/lib/codemirror/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/samples/toolbarconfigurator/lib/codemirror/codemirror.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/samples/toolbarconfigurator/lib/codemirror/codemirror.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/samples/toolbarconfigurator/lib/codemirror/javascript.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/samples/toolbarconfigurator/lib/codemirror/neo.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/samples/toolbarconfigurator/lib/codemirror/show-hint.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/samples/toolbarconfigurator/lib/codemirror/show-hint.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/skins/minimalist/dialog.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/skins/minimalist/dialog_ie.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/skins/minimalist/dialog_ie7.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/skins/minimalist/dialog_ie8.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/skins/minimalist/dialog_iequirks.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/skins/minimalist/editor.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/skins/minimalist/editor_gecko.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/skins/minimalist/editor_ie.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/skins/minimalist/editor_ie7.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/skins/minimalist/editor_ie8.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/skins/minimalist/editor_iequirks.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/skins/minimalist/icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/skins/minimalist/icons_hidpi.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/skins/minimalist/images/arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/skins/minimalist/images/close.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/skins/minimalist/images/hidpi/close.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/skins/minimalist/images/hidpi/lock-open.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/skins/minimalist/images/hidpi/lock.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/skins/minimalist/images/hidpi/refresh.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/skins/minimalist/images/lock-open.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/skins/minimalist/images/lock.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/skins/minimalist/images/refresh.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/skins/minimalist/readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/ckeditor/styles.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/jquery-3.2.1.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/jquery-ui.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/popper.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/reveal.js/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/reveal.js/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/reveal.js/CONTRIBUTING.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/reveal.js/Gruntfile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/reveal.js/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/reveal.js/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/reveal.js/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/reveal.js/css/print/paper.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/reveal.js/css/print/pdf.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/reveal.js/css/reveal.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/reveal.js/css/reveal.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/reveal.js/css/theme/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/reveal.js/css/theme/beige.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/reveal.js/css/theme/black.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/reveal.js/css/theme/blood.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/reveal.js/css/theme/league.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/reveal.js/css/theme/moon.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/reveal.js/css/theme/night.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/reveal.js/css/theme/serif.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/reveal.js/css/theme/simple.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/reveal.js/css/theme/sky.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/reveal.js/css/theme/solarized.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/reveal.js/css/theme/source/beige.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/reveal.js/css/theme/source/black.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/reveal.js/css/theme/source/blood.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/reveal.js/css/theme/source/league.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/reveal.js/css/theme/source/moon.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/reveal.js/css/theme/source/night.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/reveal.js/css/theme/source/serif.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/reveal.js/css/theme/source/simple.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/reveal.js/css/theme/source/sky.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/reveal.js/css/theme/source/solarized.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/reveal.js/css/theme/source/white.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/reveal.js/css/theme/template/mixins.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/reveal.js/css/theme/template/settings.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/reveal.js/css/theme/template/theme.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/reveal.js/css/theme/white.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/reveal.js/js/jquery-1.8.3.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/reveal.js/js/jquery-ui-1.9.2.custom.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/reveal.js/js/jquery-ui-1.9.2.custom.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/reveal.js/js/reveal.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/reveal.js/lib/css/zenburn.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/reveal.js/lib/css/zenburn1.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/reveal.js/lib/font/league-gothic/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/reveal.js/lib/font/league-gothic/league-gothic.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/reveal.js/lib/font/league-gothic/league-gothic.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/reveal.js/lib/font/league-gothic/league-gothic.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/reveal.js/lib/font/league-gothic/league-gothic.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/reveal.js/lib/font/source-sans-pro/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/reveal.js/lib/font/source-sans-pro/source-sans-pro-italic.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/reveal.js/lib/font/source-sans-pro/source-sans-pro-italic.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/reveal.js/lib/font/source-sans-pro/source-sans-pro-italic.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/reveal.js/lib/font/source-sans-pro/source-sans-pro-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/reveal.js/lib/font/source-sans-pro/source-sans-pro-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/reveal.js/lib/font/source-sans-pro/source-sans-pro-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/reveal.js/lib/font/source-sans-pro/source-sans-pro-semibold.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/reveal.js/lib/font/source-sans-pro/source-sans-pro-semibold.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/reveal.js/lib/font/source-sans-pro/source-sans-pro-semibold.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/reveal.js/lib/font/source-sans-pro/source-sans-pro-semibolditalic.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/reveal.js/lib/font/source-sans-pro/source-sans-pro-semibolditalic.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/reveal.js/lib/font/source-sans-pro/source-sans-pro-semibolditalic.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/reveal.js/lib/font/source-sans-pro/source-sans-pro.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/reveal.js/lib/js/classList.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/reveal.js/lib/js/head.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/reveal.js/lib/js/html5shiv.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/reveal.js/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/reveal.js/plugin/highlight/highlight.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/reveal.js/plugin/markdown/example.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/reveal.js/plugin/markdown/example.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/reveal.js/plugin/markdown/markdown.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/reveal.js/plugin/markdown/marked.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/reveal.js/plugin/math/math.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/reveal.js/plugin/notes/notes.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/reveal.js/plugin/notes/notes.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/reveal.js/plugin/print-pdf/print-pdf.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/reveal.js/plugin/search/search.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/reveal.js/plugin/zoom-js/zoom.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/reveal.js/test/examples/assets/image1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/reveal.js/test/examples/assets/image2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/reveal.js/test/examples/barebones.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/reveal.js/test/examples/embedded-media.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/reveal.js/test/examples/math.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/reveal.js/test/examples/slide-backgrounds.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/reveal.js/test/examples/slide-transitions.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/reveal.js/test/qunit-1.12.0.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/reveal.js/test/qunit-1.12.0.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/reveal.js/test/simple.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/reveal.js/test/test-markdown-element-attributes.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/reveal.js/test/test-markdown-element-attributes.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/reveal.js/test/test-markdown-external.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/reveal.js/test/test-markdown-external.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/reveal.js/test/test-markdown-options.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/reveal.js/test/test-markdown-options.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/reveal.js/test/test-markdown-slide-attributes.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/reveal.js/test/test-markdown-slide-attributes.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/reveal.js/test/test-markdown.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/reveal.js/test/test-markdown.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/reveal.js/test/test-pdf.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/reveal.js/test/test-pdf.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/reveal.js/test/test.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/plugin/reveal.js/test/test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/prefixfree.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/qrjs2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/usercenter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/nf4slide/js/usercenter_js.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/nf4slide_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/nf4slide_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/playPage.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/playPageInit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/playPageLib.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugin/nf4_play_slide.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/playSlide.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/Play.jsp" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/qtu404/present/slide/action/SlideAction.class" afterPath="$PROJECT_DIR$/target/classes/com/qtu404/present/slide/action/SlideAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/nf4slide.war" afterPath="$PROJECT_DIR$/target/nf4slide.war" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/c1906d38-cd62-4f14-b74e-67da786ab0ed.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/c1906d38-cd62-4f14-b74e-67da786ab0ed.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nf4slide.iml" afterPath="$PROJECT_DIR$/nf4slide.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/qtu404/obsolete/servlet/FileUploadServlet.java" afterPath="$PROJECT_DIR$/src/main/java/com/qtu404/obsolete/servlet/FileUploadServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/qtu404/present/slide/action/SlideAction.java" afterPath="$PROJECT_DIR$/src/main/java/com/qtu404/present/slide/action/SlideAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/qtu404/present/slide/dao/SlideDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/qtu404/present/slide/dao/SlideDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/qtu404/present/slide/dao/impl/SlideDaoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/qtu404/present/slide/dao/impl/SlideDaoImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/qtu404/present/slide/service/SlideService.java" afterPath="$PROJECT_DIR$/src/main/java/com/qtu404/present/slide/service/SlideService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/qtu404/present/slide/service/impl/SlideServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/qtu404/present/slide/service/impl/SlideServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/qtu404/present/slide/vo/SlideRowMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/qtu404/present/slide/vo/SlideRowMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/qtu404/present/slide/vo/SlideVo.java" afterPath="$PROJECT_DIR$/src/main/java/com/qtu404/present/slide/vo/SlideVo.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/struts.xml" afterPath="$PROJECT_DIR$/src/main/resources/struts.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/Play.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/Play.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/home.html" afterPath="$PROJECT_DIR$/src/main/webapp/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/index_js.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/index_js.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/nf4-login.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/nf4-login.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/edit.html" afterPath="$PROJECT_DIR$/src/main/webapp/edit.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/nf4-playSlide.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/nf4-playSlide.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/nf4-script-dx.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/nf4-script-dx.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/plugin/reveal.js/plugin/markdown/example.html" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugin/reveal.js/plugin/markdown/example.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/plugin/reveal.js/test/examples/barebones.html" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugin/reveal.js/test/examples/barebones.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/plugin/reveal.js/test/examples/embedded-media.html" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugin/reveal.js/test/examples/embedded-media.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/plugin/reveal.js/test/examples/math.html" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugin/reveal.js/test/examples/math.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/plugin/reveal.js/test/examples/slide-backgrounds.html" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugin/reveal.js/test/examples/slide-backgrounds.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/plugin/reveal.js/test/examples/slide-transitions.html" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugin/reveal.js/test/examples/slide-transitions.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/plugin/reveal.js/test/test-markdown-element-attributes.html" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugin/reveal.js/test/test-markdown-element-attributes.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/plugin/reveal.js/test/test-markdown-external.html" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugin/reveal.js/test/test-markdown-external.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/plugin/reveal.js/test/test-markdown-options.html" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugin/reveal.js/test/test-markdown-options.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/plugin/reveal.js/test/test-markdown-slide-attributes.html" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugin/reveal.js/test/test-markdown-slide-attributes.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/plugin/reveal.js/test/test-markdown.html" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugin/reveal.js/test/test-markdown.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/plugin/reveal.js/test/test-pdf.html" afterPath="$PROJECT_DIR$/src/main/webapp/js/plugin/reveal.js/test/test-pdf.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/usercenter.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/usercenter.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/struts.xml" afterPath="$PROJECT_DIR$/target/classes/struts.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_8_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_14_RELEASE.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_8_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_14_RELEASE.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_8_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_14_RELEASE.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_3_8_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_3_14_RELEASE.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_8_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_14_RELEASE.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_8_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_14_RELEASE.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/qtu404/present/action/Config.java" afterPath="$PROJECT_DIR$/src/main/java/com/qtu404/present/unit/Config.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/qtu404/present/action/SlideAction.java" afterPath="$PROJECT_DIR$/src/main/java/com/qtu404/present/slide/action/SlideAction.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/qtu404/present/action/UserAction.java" afterPath="$PROJECT_DIR$/src/main/java/com/qtu404/present/user/action/UserAction.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/qtu404/present/dao/DBConfig.java" afterPath="$PROJECT_DIR$/src/main/java/com/qtu404/present/unit/DBConfig.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/qtu404/present/dao/impl/LogDaoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/qtu404/present/log/dao/impl/LogDaoImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/qtu404/present/dao/impl/SlideDaoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/qtu404/present/slide/dao/impl/SlideDaoImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/qtu404/present/dao/impl/UserDaoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/qtu404/present/user/dao/impl/UserDaoImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/qtu404/present/domain/LogVo.java" afterPath="$PROJECT_DIR$/src/main/java/com/qtu404/present/log/vo/LogVo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/qtu404/present/domain/SlideVo.java" afterPath="$PROJECT_DIR$/src/main/java/com/qtu404/present/slide/vo/SlideVo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/qtu404/present/domain/UserVo.java" afterPath="$PROJECT_DIR$/src/main/java/com/qtu404/present/user/vo/UserVo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/qtu404/unit/Parameter.java" afterPath="$PROJECT_DIR$/src/main/java/com/qtu404/present/unit/Parameter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/qtu404/unit/email/EmailSender.java" afterPath="$PROJECT_DIR$/src/main/java/com/qtu404/present/unit/email/EmailSender.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/qtu404/unit/email/demo/AdminStrategy.java" afterPath="$PROJECT_DIR$/src/main/java/com/qtu404/present/unit/email/demo/AdminStrategy.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/qtu404/unit/email/demo/Demo.java" afterPath="$PROJECT_DIR$/src/main/java/com/qtu404/present/unit/email/demo/Demo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/qtu404/unit/email/demo/SigninMessage.java" afterPath="$PROJECT_DIR$/src/main/java/com/qtu404/present/unit/email/demo/SigninMessage.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/qtu404/unit/email/message/AbstractMessage.java" afterPath="$PROJECT_DIR$/src/main/java/com/qtu404/present/unit/email/message/AbstractMessage.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/qtu404/unit/email/message/Message.java" afterPath="$PROJECT_DIR$/src/main/java/com/qtu404/present/unit/email/message/Message.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/qtu404/unit/email/strategy/AbstractStrategy.java" afterPath="$PROJECT_DIR$/src/main/java/com/qtu404/present/unit/email/strategy/AbstractStrategy.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/qtu404/unit/email/strategy/Strategy.java" afterPath="$PROJECT_DIR$/src/main/java/com/qtu404/present/unit/email/strategy/Strategy.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/qtu404/unit/sms/SMSsender.java" afterPath="$PROJECT_DIR$/src/main/java/com/qtu404/present/unit/sms/SMSsender.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/qtu404/unit/sms/SmsDemo.java" afterPath="$PROJECT_DIR$/src/main/java/com/qtu404/present/unit/sms/SmsDemo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/qtu404/unit/sms/message/Message.java" afterPath="$PROJECT_DIR$/src/main/java/com/qtu404/present/unit/sms/message/Message.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/qtu404/unit/sms/strategy/Strategy.java" afterPath="$PROJECT_DIR$/src/main/java/com/qtu404/present/unit/sms/strategy/Strategy.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/content/edit.html" afterPath="$PROJECT_DIR$/src/main/webapp/edit.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/content/register.html" afterPath="$PROJECT_DIR$/src/main/webapp/register.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/content/usercenter.html" afterPath="$PROJECT_DIR$/src/main/webapp/usercenter.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-fileupload-1.3.2.jar" afterPath="$PROJECT_DIR$/lib/commons-fileupload-1.3.2.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-io-2.5.jar" afterPath="$PROJECT_DIR$/lib/commons-io-2.5.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/mysql-connector-java-5.1.42-bin.jar" afterPath="$PROJECT_DIR$/lib/mysql-connector-java-5.1.42-bin.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/poi-3.12-20150511.jar" afterPath="$PROJECT_DIR$/lib/poi-3.12-20150511.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/poi-examples-3.12-20150511.jar" afterPath="$PROJECT_DIR$/lib/poi-examples-3.12-20150511.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/poi-excelant-3.12-20150511.jar" afterPath="$PROJECT_DIR$/lib/poi-excelant-3.12-20150511.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/poi-ooxml-3.12-20150511.jar" afterPath="$PROJECT_DIR$/lib/poi-ooxml-3.12-20150511.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/poi-ooxml-schemas-3.12-20150511.jar" afterPath="$PROJECT_DIR$/lib/poi-ooxml-schemas-3.12-20150511.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/poi-scratchpad-3.12-20150511.jar" afterPath="$PROJECT_DIR$/lib/poi-scratchpad-3.12-20150511.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/xmlbeans-2.6.0.jar" afterPath="$PROJECT_DIR$/lib/xmlbeans-2.6.0.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/nf4_eidt_script_wildhunt_unique.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/nf4_img_webuploader.js" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -745,128 +65,153 @@
     <option name="SHOW_TABLE_DETAILS" value="true" />
     <option name="SHOW_EMPTY_GROUPS" value="false" />
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <expand />
+    <expand>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="slide_edit@120.24.186.116" type="e3449647:DbNodeDescriptor" />
+      </path>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="slide_edit@120.24.186.116" type="e3449647:DbNodeDescriptor" />
+        <item name="slide_edit" type="e3449647:DbNodeDescriptor" />
+      </path>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="slide_edit@120.24.186.116" type="e3449647:DbNodeDescriptor" />
+        <item name="slide_edit" type="e3449647:DbNodeDescriptor" />
+        <item name="slides" type="e3449647:DbNodeDescriptor" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="FavoritesManager">
     <favorites_list name="nf4slide" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.2551566">
+    <splitter split-orientation="horizontal" split-proportion="0.513412">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-          <file leaf-file-name="UserAction.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/qtu404/present/user/action/UserAction.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1173">
-                  <caret line="71" column="6" lean-forward="false" selection-start-line="71" selection-start-column="6" selection-end-line="71" selection-end-column="6" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="edit.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/webapp/edit.html">
               <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="147">
+                  <caret line="364" column="20" lean-forward="true" selection-start-line="364" selection-start-column="20" selection-end-line="364" selection-end-column="20" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="usercenter.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/webapp/usercenter.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="248">
+                  <caret line="98" column="34" lean-forward="true" selection-start-line="98" selection-start-column="34" selection-end-line="98" selection-end-column="34" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="playPage.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/webapp/css/playPage.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="452">
+                  <caret line="73" column="14" lean-forward="true" selection-start-line="73" selection-start-column="14" selection-end-line="73" selection-end-column="14" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="SlideAction.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/qtu404/present/slide/action/SlideAction.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="350">
+                  <caret line="72" column="39" lean-forward="false" selection-start-line="72" selection-start-column="39" selection-end-line="72" selection-end-column="39" />
+                  <folding>
+                    <element signature="e#5537#5538#0" expanded="true" />
+                    <element signature="e#5566#5567#0" expanded="true" />
+                    <element signature="e#5610#5611#0" expanded="true" />
+                    <element signature="e#5646#5647#0" expanded="true" />
+                    <element signature="e#5678#5679#0" expanded="true" />
+                    <element signature="e#5706#5707#0" expanded="true" />
+                    <element signature="e#5748#5749#0" expanded="true" />
+                    <element signature="e#5782#5783#0" expanded="true" />
+                    <element signature="e#5844#5845#0" expanded="true" />
+                    <element signature="e#5892#5893#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="SlideService.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/qtu404/present/slide/service/SlideService.java">
+              <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="299">
-                  <caret line="13" column="34" lean-forward="false" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+                  <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="struts.xml" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/resources/struts.xml">
+          <file leaf-file-name="SlideServiceImpl.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/qtu404/present/slide/service/impl/SlideServiceImpl.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="299">
-                  <caret line="13" column="36" lean-forward="false" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
-                  <folding />
-                </state>
-              </provider>
-              <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
-                <state />
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="webuploader.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/webapp/js/plugin/webuploader-0.1.5/webuploader.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="138">
-                  <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="nf4_eidt_script_wildhunt_unique.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/webapp/js/nf4_eidt_script_wildhunt_unique.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="187082">
-                  <caret line="8134" column="14" lean-forward="false" selection-start-line="8134" selection-start-column="14" selection-end-line="8134" selection-end-column="14" />
+                <state relative-caret-position="368">
+                  <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
                   <folding>
-                    <element signature="n#!!doc" expanded="true" />
+                    <element signature="e#954#955#0" expanded="true" />
+                    <element signature="e#1005#1006#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="index_js.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/webapp/js/index_js.js">
+          <file leaf-file-name="SlideVo.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/qtu404/present/slide/vo/SlideVo.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2116">
-                  <caret line="92" column="0" lean-forward="false" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="test.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/webapp/test.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="92">
-                  <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+                <state relative-caret-position="368">
+                  <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
                   <folding>
-                    <marker date="1527593348947" expanded="true" signature="2580:2589" ph="..." />
+                    <element signature="e#337#338#0" expanded="true" />
+                    <element signature="e#367#368#0" expanded="true" />
+                    <element signature="e#413#414#0" expanded="true" />
+                    <element signature="e#451#452#0" expanded="true" />
+                    <element signature="e#484#485#0" expanded="true" />
+                    <element signature="e#513#514#0" expanded="true" />
+                    <element signature="e#557#558#0" expanded="true" />
+                    <element signature="e#593#594#0" expanded="true" />
+                    <element signature="e#625#626#0" expanded="true" />
+                    <element signature="e#653#654#0" expanded="true" />
+                    <element signature="e#695#696#0" expanded="true" />
+                    <element signature="e#729#730#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="nf4-playSlide.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/webapp/js/nf4-playSlide.js">
+          <file leaf-file-name="SlideDaoImpl.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/qtu404/present/slide/dao/impl/SlideDaoImpl.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="598">
-                  <caret line="26" column="41" lean-forward="false" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
-                  <folding>
-                    <marker date="1527512220113" expanded="true" signature="1182:1285" ph="..." />
-                    <marker date="1527512220113" expanded="true" signature="1333:1382" ph="..." />
-                    <marker date="1527512220113" expanded="true" signature="1471:1565" ph="..." />
-                    <marker date="1527512220113" expanded="true" signature="1674:1825" ph="..." />
-                    <marker date="1527512220113" expanded="true" signature="1897:2006" ph="..." />
-                    <marker date="1527512220113" expanded="true" signature="2091:2261" ph="..." />
-                    <marker date="1527512220113" expanded="true" signature="3017:3041" ph="..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="ImgAction.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/qtu404/present/slide/action/ImgAction.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="828">
-                  <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+                <state relative-caret-position="2398">
+                  <caret line="122" column="51" lean-forward="true" selection-start-line="122" selection-start-column="51" selection-end-line="122" selection-end-column="51" />
                   <folding>
                     <element signature="imports" expanded="true" />
+                    <marker date="1527839691662" expanded="true" signature="1072:1152" ph="UPDATE slide... " />
+                    <marker date="1527839691662" expanded="true" signature="1750:1808" ph="insert into slides... " />
+                    <marker date="1527839691662" expanded="true" signature="2310:2341" ph="SELECT max(s... slides" />
+                    <marker date="1527839691662" expanded="true" signature="2633:2672" ph="SELECT * FRO... slides" />
+                    <marker date="1527839691662" expanded="true" signature="2980:3039" ph="UPDATE slide... " />
+                    <marker date="1527839691662" expanded="true" signature="3422:3467" ph="UPDATE slide... " />
+                    <marker date="1527839691662" expanded="true" signature="3906:4046" ph="SELECT slide... slides" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="UserVo.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/qtu404/present/user/vo/UserVo.java">
+          <file leaf-file-name="SlideDao.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/qtu404/present/slide/dao/SlideDao.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="46">
-                  <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+                <state relative-caret-position="161">
+                  <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -876,61 +221,73 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-          <file leaf-file-name="SlideServiceImpl.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/qtu404/present/slide/service/impl/SlideServiceImpl.java">
+          <file leaf-file-name="struts.xml" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/resources/struts.xml">
+              <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
+                <state />
+              </provider>
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="363">
+                  <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="usercenter.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/webapp/js/usercenter.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="115">
-                  <caret line="14" column="25" lean-forward="false" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+                  <caret line="60" column="55" lean-forward="false" selection-start-line="60" selection-start-column="55" selection-end-line="60" selection-end-column="55" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="LogDaoImpl.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/qtu404/present/log/dao/impl/LogDaoImpl.java">
+          <file leaf-file-name="playSlide.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/webapp/playSlide.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="345">
-                  <caret line="20" column="9" lean-forward="false" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+                <state relative-caret-position="691">
+                  <caret line="36" column="24" lean-forward="false" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
                   <folding>
-                    <marker date="1527574715369" expanded="true" signature="386:422" ph="INSERT INTO log... " />
-                    <marker date="1527574715369" expanded="true" signature="1315:1338" ph="SELECT MAX(i... log" />
+                    <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="SlideAction.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/qtu404/present/slide/action/SlideAction.java">
+          <file leaf-file-name="playPageInit.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/webapp/js/playPageInit.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="345">
-                  <caret line="31" column="26" lean-forward="false" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
+                <state relative-caret-position="368">
+                  <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="nf4-script-dx.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="playPageLib.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/webapp/js/playPageLib.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="161">
+                  <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+                  <folding>
+                    <marker date="1527850419631" expanded="true" signature="5731:5745" ph="..." />
+                    <marker date="1527850419631" expanded="true" signature="5884:5898" ph="..." />
+                    <marker date="1527850419631" expanded="true" signature="5964:5978" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="nf4-script-dx.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/webapp/js/nf4-script-dx.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="316">
-                  <caret line="116" column="25" lean-forward="true" selection-start-line="116" selection-start-column="25" selection-end-line="116" selection-end-column="25" />
+                <state relative-caret-position="303">
+                  <caret line="883" column="42" lean-forward="true" selection-start-line="883" selection-start-column="42" selection-end-line="883" selection-end-column="42" />
                   <folding>
-                    <marker date="1527605098994" expanded="true" signature="3794:3845" ph="..." />
-                    <marker date="1527605098994" expanded="true" signature="21718:21736" ph="..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Play.jsp" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/webapp/Play.jsp">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="458">
-                  <caret line="21" column="2" lean-forward="true" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
-                  <folding>
-                    <marker date="1527605099009" expanded="true" signature="6202:6216" ph="..." />
-                    <marker date="1527605099009" expanded="true" signature="6355:6369" ph="..." />
-                    <marker date="1527605099009" expanded="true" signature="6435:6449" ph="..." />
+                    <marker date="1527842387250" expanded="true" signature="3757:3808" ph="..." />
+                    <marker date="1527842387250" expanded="true" signature="17284:17302" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -946,6 +303,7 @@
         <option value="FxmlFile" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -970,6 +328,13 @@
       <find>webuploader</find>
       <find>test</find>
       <find>addslide</find>
+      <find>ajax</find>
+      <find>save</find>
+      <find>s</find>
+      <find>saveslide</find>
+      <find>playsl</find>
+      <find>danmuPlace</find>
+      <find>send</find>
     </findStrings>
     <replaceStrings>
       <replace>slideService</replace>
@@ -987,22 +352,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/js/nf4-playSlide.js" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qtu404/obsolete/servlet/uploadServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qtu404/obsolete/servlet/PlayServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qtu404/obsolete/servlet/EditServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qtu404/obsolete/file/uploadSlide.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qtu404/obsolete/servlet/FileUploadServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/home.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qtu404/present/dao/impl/SlideDaoImpl.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qtu404/present/action/SlideAction.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qtu404/present/action/UserAction.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qtu404/present/slide/vo/UserVo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qtu404/present/slide/dao/slideDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qtu404/present/slide/action/UserAction.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qtu404/present/user/vo/SlideVo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qtu404/unit/DBConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qtu404/present/user/action/UserDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qtu404/unit/Config.java" />
@@ -1015,19 +364,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/qtu404/present/user/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qtu404/present/user/vo/SlideRowMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qtu404/present/user/vo/UserVo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qtu404/present/slide/vo/SlideVo.java" />
         <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qtu404/present/slide/dao/SlideDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qtu404/present/user/dao/impl/UserDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qtu404/present/user/vo/UserRowMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qtu404/present/slide/vo/SlideRowMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qtu404/present/slide/dao/impl/SlideDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qtu404/present/slide/service/SlideService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qtu404/present/log/dao/impl/LogDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qtu404/present/user/action/UserAction.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qtu404/obsolete/file/FileManage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qtu404/present/slide/service/impl/SlideServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qtu404/present/slide/action/SlideAction.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qtu404/present/slide/action/ImgUpLoadAction.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qtu404/obsolete/servlet/ImgUpLoadServlet.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/test.html" />
@@ -1036,8 +378,31 @@
         <option value="$PROJECT_DIR$/src/main/webapp/js/index_js.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/content/edit.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/js/nf4_eidt_script_wildhunt_unique.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/plugin/revealJs/test/test.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/plugin/revealJs/test/examples/math.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/Play.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/Play.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/play.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/plugin/reveal.js/test/examples/math.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/struts.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/usercenter.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qtu404/present/slide/dao/SlideDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qtu404/present/slide/vo/SlideRowMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qtu404/present/slide/dao/impl/SlideDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/edit.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/nf4-playSlide.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/js/nf4-script-dx.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/play.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/css/playPage.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/playSlide.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qtu404/present/slide/vo/SlideVo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qtu404/present/slide/service/SlideService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qtu404/present/slide/service/impl/SlideServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/playPageLib.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/playPageInit.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qtu404/present/slide/action/SlideAction.java" />
       </list>
     </option>
   </component>
@@ -1084,10 +449,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="Scope" />
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -1111,30 +475,28 @@
               <item name="nf4slide" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nf4slide" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nf4slide" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="qtu404" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nf4slide" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nf4slide" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nf4slide" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nf4slide" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nf4slide" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nf4slide" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="nf4slide" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nf4slide" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nf4slide" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="nf4slide" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1146,7 +508,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/commons-io-2.5.jar!/" />
-    <property name="SearchEverywhereHistoryKey" value="dx&#9;FILE&#9;file://E:/Workspaces/IDEA project/nf4slide/src/main/webapp/js/nf4-script-dx.js&#10;struts.x&#9;FILE&#9;file://E:/Workspaces/IDEA project/nf4slide/src/main/resources/struts.xml&#10;nf4-s&#9;FILE&#9;file://E:/Workspaces/IDEA project/nf4slide/src/main/webapp/js/nf4-script-dx.js&#10;index&#9;FILE&#9;file://E:/Workspaces/IDEA project/nf4slide/src/main/webapp/js/index_js.js&#10;slideac&#9;FILE&#9;file://E:/Workspaces/IDEA project/nf4slide/src/main/java/com/qtu404/present/slide/action/SlideAction.java&#10;imgs&#9;FILE&#9;file://E:/Workspaces/IDEA project/nf4slide/src/main/java/com/qtu404/obsolete/servlet/ImgUpLoadServlet.java&#10;test&#9;FILE&#9;file://E:/Workspaces/IDEA project/nf4slide/src/main/webapp/test.html&#10;h&#9;FILE&#9;file://E:/Workspaces/IDEA project/nf4slide/src/main/webapp/WEB-INF/content/edit.html&#10;userac&#9;FILE&#9;file://E:/Workspaces/IDEA project/nf4slide/src/main/java/com/qtu404/present/user/action/UserAction.java&#10;slideimp&#9;FILE&#9;file://E:/Workspaces/IDEA project/nf4slide/src/main/java/com/qtu404/present/slide/dao/impl/SlideDaoImpl.java&#10;slidero&#9;FILE&#9;file://E:/Workspaces/IDEA project/nf4slide/src/main/java/com/qtu404/present/slide/vo/SlideRowMapper.java&#10;userdaoi&#9;FILE&#9;file://E:/Workspaces/IDEA project/nf4slide/src/main/java/com/qtu404/present/user/dao/impl/UserDaoImpl.java&#10;s&#9;FILE&#9;file://E:/Workspaces/IDEA project/nf4slide/src/main/java/com/qtu404/present/slide/service/impl/SlideServiceImpl.java&#10;ser&#9;FILE&#9;file://E:/Workspaces/IDEA project/nf4slide/src/main/java/com/qtu404/present/slide/service/SlideService.java&#10;slidea&#9;FILE&#9;file://E:/Workspaces/IDEA project/nf4slide/src/main/java/com/qtu404/present/slide/action/SlideAction.java&#10;slides&#9;FILE&#9;file://E:/Workspaces/IDEA project/nf4slide/src/main/java/com/qtu404/present/slide/service/impl/SlideServiceImpl.java&#10;user&#9;FILE&#9;file://E:/Workspaces/IDEA project/nf4slide/src/main/java/com/qtu404/present/user/vo/UserRowMapper.java&#10;slidema&#9;FILE&#9;file://E:/Workspaces/IDEA project/nf4slide/src/main/java/com/qtu404/present/slide/vo/SlideRowMapper.java&#10;userdao&#9;FILE&#9;file://E:/Workspaces/IDEA project/nf4slide/src/main/java/com/qtu404/present/user/dao/impl/UserDaoImpl.java&#10;slidedao&#9;FILE&#9;file://E:/Workspaces/IDEA project/nf4slide/src/main/java/com/qtu404/present/slide/dao/impl/SlideDaoImpl.java&#10;app&#9;FILE&#9;file://E:/Workspaces/IDEA project/nf4slide/src/main/resources/applicationContext.xml&#10;web&#9;FILE&#9;file://E:/Workspaces/IDEA project/nf4slide/src/main/webapp/WEB-INF/web.xml&#10;pom&#9;FILE&#9;file://E:/Workspaces/IDEA project/nf4slide/pom.xml&#10;slideda&#9;FILE&#9;file://E:/Workspaces/IDEA project/nf4slide/src/main/java/com/qtu404/present/dao/impl/SlideDaoImpl.java&#10;dao&#9;FILE&#9;file://E:/Workspaces/IDEA project/nf4slide/src/main/java/com/qtu404/present/dao/impl/SlideDaoImpl.java&#10;login.js&#9;FILE&#9;file://E:/Workspaces/IDEA project/nf4slide/src/main/webapp/js/login/login.js&#10;pla&#9;FILE&#9;file://E:/Workspaces/IDEA project/nf4slide/src/main/webapp/Play.jsp&#10;play.jsp&#9;FILE&#9;file://E:/Workspaces/IDEA project/nf4slide/src/main/webapp/Play.jsp&#10;usercent&#9;FILE&#9;file://E:/Workspaces/IDEA project/nf4slide/src/main/webapp/js/usercenter.js&#10;edit&#9;FILE&#9;file://E:/Workspaces/IDEA project/nf4slide/src/main/webapp/WEB-INF/content/edit.html&#10;usercenter&#9;FILE&#9;file://E:/Workspaces/IDEA project/nf4slide/src/main/webapp/js/usercenter.js&#10;str&#9;FILE&#9;file://E:/Workspaces/IDEA project/nf4slide/src/main/resources/struts.xml&#10;addserv&#9;FILE&#9;file://E:/Workspaces/IDEA project/nf4slide/src/main/java/com/qtu404/obsolete/servlet/AddSlideServlet.java&#10;slideaac&#9;null&#9;null&#10;userce&#9;FILE&#9;file://E:/Workspaces/IDEA project/nf4slide/src/main/webapp/js/usercenter.js&#10;use&#9;FILE&#9;file://E:/Workspaces/IDEA project/nf4slide/src/main/webapp/js/usercenter_js.js&#10;usercent.js&#9;FILE&#9;file://E:/Workspaces/IDEA project/nf4slide/src/main/webapp/js/usercenter_js.js&#10;lo&#9;FILE&#9;file://E:/Workspaces/IDEA project/nf4slide/src/main/webapp/js/login/login.js&#10;usera&#9;FILE&#9;file://E:/Workspaces/IDEA project/nf4slide/src/main/java/com/qtu404/present/action/UserAction.java&#10;slidedaoi&#9;FILE&#9;file://E:/Workspaces/IDEA project/nf4slide/src/main/java/com/qtu404/present/dao/impl/SlideDaoImpl.java&#10;userc&#9;FILE&#9;file://E:/Workspaces/IDEA project/nf4slide/src/main/webapp/WEB-INF/content/usercenter.jsp&#10;struts&#9;FILE&#9;file://E:/Workspaces/IDEA project/nf4slide/src/main/resources/struts.xml&#10;login&#9;FILE&#9;file://E:/Workspaces/IDEA project/nf4slide/src/main/webapp/js/login/login.js&#10;reg&#9;FILE&#9;file://E:/Workspaces/IDEA project/nf4slide/src/main/webapp/WEB-INF/content/register.html&#10;logdao&#9;FILE&#9;file://E:/Workspaces/IDEA project/nf4slide/src/main/java/com/qtu404/present/dao/impl/LogDaoImpl.java&#10;re&#9;FILE&#9;file://E:/Workspaces/IDEA project/nf4slide/src/main/webapp/WEB-INF/content/register.html&#10;we&#9;FILE&#9;file://E:/Workspaces/IDEA project/nf4slide/src/main/webapp/WEB-INF/web.xml&#10;smss&#9;FILE&#9;file://E:/Workspaces/IDEA project/nf4slide/src/main/java/com/qtu404/unit/sms/SMSsender.java" />
+    <property name="SearchEverywhereHistoryKey" value="slidedao&#9;FILE&#9;file://E:/Workspaces/IDEA project/nf4slide/src/main/java/com/qtu404/present/slide/dao/impl/SlideDaoImpl.java&#10;slideac&#9;FILE&#9;file://E:/Workspaces/IDEA project/nf4slide/src/main/java/com/qtu404/present/slide/action/SlideAction.java&#10;slides&#9;FILE&#9;file://E:/Workspaces/IDEA project/nf4slide/src/main/java/com/qtu404/present/slide/service/impl/SlideServiceImpl.java&#10;slidevo&#9;FILE&#9;file://E:/Workspaces/IDEA project/nf4slide/src/main/java/com/qtu404/present/slide/vo/SlideVo.java&#10;plays&#9;FILE&#9;file://E:/Workspaces/IDEA project/nf4slide/src/main/webapp/playSlide.html&#10;page&#9;FILE&#9;file://E:/Workspaces/IDEA project/nf4slide/src/main/webapp/css/playPage.css&#10;play&#9;FILE&#9;file://E:/Workspaces/IDEA project/nf4slide/src/main/webapp/play.jsp&#10;scr&#9;FILE&#9;file://E:/Workspaces/IDEA project/nf4slide/src/main/webapp/js/nf4-script-dx.js&#10;usercenth&#9;FILE&#9;file://E:/Workspaces/IDEA project/nf4slide/src/main/webapp/usercenter.html&#10;edit&#9;FILE&#9;file://E:/Workspaces/IDEA project/nf4slide/src/main/webapp/edit.html&#10;nf4&#9;FILE&#9;file://E:/Workspaces/IDEA project/nf4slide/src/main/webapp/js/nf4-script-dx.js&#10;pla&#9;FILE&#9;file://E:/Workspaces/IDEA project/nf4slide/src/main/webapp/js/nf4-playSlide.js&#10;user&#9;FILE&#9;file://E:/Workspaces/IDEA project/nf4slide/src/main/webapp/js/usercenter.js&#10;st&#9;FILE&#9;file://E:/Workspaces/IDEA project/nf4slide/src/main/resources/struts.xml&#10;nf4p&#9;FILE&#9;file://E:/Workspaces/IDEA project/nf4slide/src/main/webapp/js/nf4-playSlide.js&#10;str&#9;FILE&#9;file://E:/Workspaces/IDEA project/nf4slide/src/main/resources/struts.xml&#10;eidt&#9;PSI&#9;JAVA://javax.mail.search.MessageIDTerm&#10;web&#9;FILE&#9;file://E:/Workspaces/IDEA project/nf4slide/src/main/webapp/WEB-INF/web.xml&#10;struts.xml&#9;FILE&#9;file://E:/Workspaces/IDEA project/nf4slide/src/main/resources/struts.xml&#10;nf&#9;FILE&#9;file://E:/Workspaces/IDEA project/nf4slide/src/main/webapp/js/nf4-playSlide.js&#10;usercent&#9;FILE&#9;file://E:/Workspaces/IDEA project/nf4slide/src/main/webapp/js/usercenter.js&#10;playpage&#9;FILE&#9;file://E:/Workspaces/IDEA project/nf4slide/src/main/webapp/js/playPageInit.js&#10;play.js&#9;FILE&#9;file://E:/Workspaces/IDEA project/nf4slide/src/main/webapp/js/plugin/nf4_play_slide.js&#10;login&#9;FILE&#9;file://E:/Workspaces/IDEA project/nf4slide/src/main/webapp/js/login/login.js&#10;nf4w&#9;FILE&#9;file://E:/Workspaces/IDEA project/nf4slide/src/main/webapp/js/nf4_eidt_script_wildhunt_unique.js&#10;dx&#9;FILE&#9;file://E:/Workspaces/IDEA project/nf4slide/src/main/webapp/js/nf4-script-dx.js&#10;struts.x&#9;FILE&#9;file://E:/Workspaces/IDEA project/nf4slide/src/main/resources/struts.xml&#10;nf4-s&#9;FILE&#9;file://E:/Workspaces/IDEA project/nf4slide/src/main/webapp/js/nf4-script-dx.js&#10;index&#9;FILE&#9;file://E:/Workspaces/IDEA project/nf4slide/src/main/webapp/js/index_js.js&#10;imgs&#9;FILE&#9;file://E:/Workspaces/IDEA project/nf4slide/src/main/java/com/qtu404/obsolete/servlet/ImgUpLoadServlet.java&#10;test&#9;FILE&#9;file://E:/Workspaces/IDEA project/nf4slide/src/main/webapp/test.html&#10;h&#9;FILE&#9;file://E:/Workspaces/IDEA project/nf4slide/src/main/webapp/WEB-INF/content/edit.html&#10;userac&#9;FILE&#9;file://E:/Workspaces/IDEA project/nf4slide/src/main/java/com/qtu404/present/user/action/UserAction.java&#10;slideimp&#9;FILE&#9;file://E:/Workspaces/IDEA project/nf4slide/src/main/java/com/qtu404/present/slide/dao/impl/SlideDaoImpl.java&#10;slidero&#9;FILE&#9;file://E:/Workspaces/IDEA project/nf4slide/src/main/java/com/qtu404/present/slide/vo/SlideRowMapper.java&#10;userdaoi&#9;FILE&#9;file://E:/Workspaces/IDEA project/nf4slide/src/main/java/com/qtu404/present/user/dao/impl/UserDaoImpl.java&#10;s&#9;FILE&#9;file://E:/Workspaces/IDEA project/nf4slide/src/main/java/com/qtu404/present/slide/service/impl/SlideServiceImpl.java&#10;ser&#9;FILE&#9;file://E:/Workspaces/IDEA project/nf4slide/src/main/java/com/qtu404/present/slide/service/SlideService.java&#10;slidea&#9;FILE&#9;file://E:/Workspaces/IDEA project/nf4slide/src/main/java/com/qtu404/present/slide/action/SlideAction.java&#10;slidema&#9;FILE&#9;file://E:/Workspaces/IDEA project/nf4slide/src/main/java/com/qtu404/present/slide/vo/SlideRowMapper.java&#10;userdao&#9;FILE&#9;file://E:/Workspaces/IDEA project/nf4slide/src/main/java/com/qtu404/present/user/dao/impl/UserDaoImpl.java&#10;app&#9;FILE&#9;file://E:/Workspaces/IDEA project/nf4slide/src/main/resources/applicationContext.xml&#10;pom&#9;FILE&#9;file://E:/Workspaces/IDEA project/nf4slide/pom.xml&#10;slideda&#9;FILE&#9;file://E:/Workspaces/IDEA project/nf4slide/src/main/java/com/qtu404/present/dao/impl/SlideDaoImpl.java&#10;dao&#9;FILE&#9;file://E:/Workspaces/IDEA project/nf4slide/src/main/java/com/qtu404/present/dao/impl/SlideDaoImpl.java&#10;login.js&#9;FILE&#9;file://E:/Workspaces/IDEA project/nf4slide/src/main/webapp/js/login/login.js&#10;play.jsp&#9;FILE&#9;file://E:/Workspaces/IDEA project/nf4slide/src/main/webapp/Play.jsp&#10;usercenter&#9;FILE&#9;file://E:/Workspaces/IDEA project/nf4slide/src/main/webapp/js/usercenter.js&#10;addserv&#9;FILE&#9;file://E:/Workspaces/IDEA project/nf4slide/src/main/java/com/qtu404/obsolete/servlet/AddSlideServlet.java&#10;slideaac&#9;null&#9;null" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
   </component>
   <component name="RecentsManager">
@@ -1407,14 +769,20 @@
       <workItem from="1527592702163" duration="5744000" />
       <workItem from="1527598532924" duration="473000" />
       <workItem from="1527604686004" duration="549000" />
+      <workItem from="1527812119137" duration="38000" />
+      <workItem from="1527812197433" duration="4673000" />
+      <workItem from="1527819328968" duration="5711000" />
+      <workItem from="1527828363975" duration="4983000" />
+      <workItem from="1527838682010" duration="10568000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58971000" />
+    <option name="totallyTimeSpent" value="84944000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1098" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="true" content_ui="tabs" />
@@ -1426,19 +794,19 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2869379" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5417559" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2248394" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16381156" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2972103" sideWeight="0.49335864" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25643778" sideWeight="0.49007633" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30150214" sideWeight="0.50992364" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.09549356" sideWeight="0.5066414" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1463,7 +831,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2869379" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5417559" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1471,12 +839,12 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5203426" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21520342" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2972103" sideWeight="0.49335864" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25643778" sideWeight="0.49007633" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30150214" sideWeight="0.50992364" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.09549356" sideWeight="0.5066414" order="6" side_tool="true" content_ui="tabs" />
@@ -1498,94 +866,11 @@
           <option name="timeStamp" value="27" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="28" />
+      <option name="time" value="33" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qtu404/obsolete/servlet/EditServlet.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qtu404/obsolete/servlet/PlayServlet.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qtu404/obsolete/servlet/uploadServlet.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qtu404/obsolete/file/FileManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="26" column="22" lean-forward="false" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/login/login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5267">
-          <caret line="229" column="5" lean-forward="false" selection-start-line="229" selection-start-column="5" selection-end-line="229" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qtu404/obsolete/dataBase/DataBaseManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1075">
-          <caret line="23" column="39" lean-forward="false" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/META-INF/MANIFEST.MF" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2369">
-          <caret line="103" column="62" lean-forward="false" selection-start-line="103" selection-start-column="62" selection-end-line="103" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qtu404/obsolete/file/uploadSlide.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2139">
-          <caret line="111" column="32" lean-forward="false" selection-start-line="111" selection-start-column="32" selection-end-line="111" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/damoo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3036">
-          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="599">
-          <caret line="164" column="21" lean-forward="false" selection-start-line="164" selection-start-column="21" selection-end-line="164" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qtu404/present/unit/Config.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qtu404/present/unit/DBConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qtu404/present/user/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="9" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/qtu404/present/log/vo/LogVo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
@@ -1621,13 +906,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qtu404/present/slide/dao/SlideDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="21" column="30" lean-forward="false" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/qtu404/present/user/dao/impl/UserDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="277">
@@ -1642,32 +920,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qtu404/present/slide/vo/SlideVo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qtu404/present/slide/vo/SlideRowMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="26" lean-forward="true" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qtu404/present/slide/dao/impl/SlideDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="50" lean-forward="false" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="598">
           <caret line="26" column="28" lean-forward="true" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1675,29 +931,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="5" column="38" lean-forward="false" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qtu404/present/slide/service/SlideService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="19" column="45" lean-forward="false" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qtu404/present/user/vo/UserVo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qtu404/present/user/action/UserAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1173">
-          <caret line="71" column="6" lean-forward="false" selection-start-line="71" selection-start-column="6" selection-end-line="71" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1722,85 +955,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="645">
           <caret line="148" column="0" lean-forward="true" selection-start-line="148" selection-start-column="0" selection-end-line="148" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/ognl/ognl/3.1.15/ognl-3.1.15-sources.jar!/ognl/OgnlRuntime.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19044">
-          <caret line="898" column="0" lean-forward="false" selection-start-line="898" selection-start-column="0" selection-end-line="898" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qtu404/present/log/dao/impl/LogDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="20" column="9" lean-forward="false" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-          <folding>
-            <marker date="1527574715369" expanded="true" signature="386:422" ph="INSERT INTO log... " />
-            <marker date="1527574715369" expanded="true" signature="1315:1338" ph="SELECT MAX(i... log" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/qtu404/obsolete/servlet/ImgUpLoadServlet.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qtu404/present/slide/service/impl/SlideServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="14" column="25" lean-forward="false" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/qtu404/obsolete/file/FileManage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
           <caret line="2" column="34" lean-forward="false" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qtu404/present/slide/action/ImgAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="828">
-          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qtu404/present/slide/action/SlideAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="31" column="26" lean-forward="false" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/nf4-playSlide.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="26" column="41" lean-forward="false" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
-          <folding>
-            <marker date="1527512220113" expanded="true" signature="1182:1285" ph="..." />
-            <marker date="1527512220113" expanded="true" signature="1333:1382" ph="..." />
-            <marker date="1527512220113" expanded="true" signature="1471:1565" ph="..." />
-            <marker date="1527512220113" expanded="true" signature="1674:1825" ph="..." />
-            <marker date="1527512220113" expanded="true" signature="1897:2006" ph="..." />
-            <marker date="1527512220113" expanded="true" signature="2091:2261" ph="..." />
-            <marker date="1527512220113" expanded="true" signature="3017:3041" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-          <folding>
-            <marker date="1527593348947" expanded="true" signature="2580:2589" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1811,70 +973,328 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qtu404/present/user/action/UserAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1173">
+          <caret line="71" column="6" lean-forward="false" selection-start-line="71" selection-start-column="6" selection-end-line="71" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qtu404/present/slide/action/ImgAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qtu404/present/user/vo/UserVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/js/plugin/webuploader-0.1.5/webuploader.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/nf4_img_webuploader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187611">
+          <caret line="8157" column="2" lean-forward="false" selection-start-line="8157" selection-start-column="2" selection-end-line="8157" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/js/index_js.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2116">
-          <caret line="92" column="0" lean-forward="false" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
+        <state relative-caret-position="5451">
+          <caret line="237" column="21" lean-forward="false" selection-start-line="237" selection-start-column="21" selection-end-line="237" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/nf4_eidt_script_wildhunt_unique.js">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/login/login.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187082">
-          <caret line="8134" column="14" lean-forward="false" selection-start-line="8134" selection-start-column="14" selection-end-line="8134" selection-end-column="14" />
+        <state relative-caret-position="4232">
+          <caret line="184" column="18" lean-forward="false" selection-start-line="184" selection-start-column="14" selection-end-line="184" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qtu404/present/log/dao/impl/LogDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="20" column="9" lean-forward="false" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/plugin/nf4_play_slide.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/plugin/reveal.js/test/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="79" column="36" lean-forward="false" selection-start-line="79" selection-start-column="36" selection-end-line="79" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="37" lean-forward="true" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/mail/javax.mail-api/1.5.6/javax.mail-api-1.5.6.jar!/javax/mail/search/MessageIDTerm.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp" />
+    <entry file="jar://$MAVEN_REPOSITORY$/ognl/ognl/3.1.15/ognl-3.1.15-sources.jar!/ognl/OgnlRuntime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19159">
+          <caret line="903" column="0" lean-forward="false" selection-start-line="903" selection-start-column="0" selection-end-line="903" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/net/Socket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="1002" column="6" lean-forward="true" selection-start-line="1002" selection-start-column="6" selection-end-line="1002" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qtu404/present/slide/dao/SlideDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qtu404/present/slide/vo/SlideRowMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="44" lean-forward="false" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/plugin/reveal.js/test/examples/math.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/usercenter.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="98" column="34" lean-forward="true" selection-start-line="98" selection-start-column="34" selection-end-line="98" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/edit.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="34" lean-forward="false" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+        <state relative-caret-position="147">
+          <caret line="364" column="20" lean-forward="true" selection-start-line="364" selection-start-column="20" selection-end-line="364" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/struts.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/nf4-playSlide.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="36" lean-forward="false" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/Play.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="21" column="2" lean-forward="true" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
+        <state relative-caret-position="533">
+          <caret line="184" column="0" lean-forward="true" selection-start-line="184" selection-start-column="0" selection-end-line="184" selection-end-column="0" />
           <folding>
-            <marker date="1527605099009" expanded="true" signature="6202:6216" ph="..." />
-            <marker date="1527605099009" expanded="true" signature="6355:6369" ph="..." />
-            <marker date="1527605099009" expanded="true" signature="6435:6449" ph="..." />
+            <marker date="1527842208928" expanded="true" signature="339:363" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/qrjs2.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="9138" lean-forward="false" selection-start-line="0" selection-start-column="9138" selection-end-line="0" selection-end-column="9138" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/play.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="26" column="45" lean-forward="true" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/js/nf4-script-dx.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="116" column="25" lean-forward="true" selection-start-line="116" selection-start-column="25" selection-end-line="116" selection-end-column="25" />
+        <state relative-caret-position="303">
+          <caret line="883" column="42" lean-forward="true" selection-start-line="883" selection-start-column="42" selection-end-line="883" selection-end-column="42" />
           <folding>
-            <marker date="1527605098994" expanded="true" signature="3794:3845" ph="..." />
-            <marker date="1527605098994" expanded="true" signature="21718:21736" ph="..." />
+            <marker date="1527842387250" expanded="true" signature="3757:3808" ph="..." />
+            <marker date="1527842387250" expanded="true" signature="17284:17302" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/usercenter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="60" column="55" lean-forward="false" selection-start-line="60" selection-start-column="55" selection-end-line="60" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/struts.xml">
+      <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/playPage.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="73" column="14" lean-forward="true" selection-start-line="73" selection-start-column="14" selection-end-line="73" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qtu404/present/slide/service/SlideService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qtu404/present/slide/dao/impl/SlideDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2398">
+          <caret line="122" column="51" lean-forward="true" selection-start-line="122" selection-start-column="51" selection-end-line="122" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1527839691662" expanded="true" signature="1072:1152" ph="UPDATE slide... " />
+            <marker date="1527839691662" expanded="true" signature="1750:1808" ph="insert into slides... " />
+            <marker date="1527839691662" expanded="true" signature="2310:2341" ph="SELECT max(s... slides" />
+            <marker date="1527839691662" expanded="true" signature="2633:2672" ph="SELECT * FRO... slides" />
+            <marker date="1527839691662" expanded="true" signature="2980:3039" ph="UPDATE slide... " />
+            <marker date="1527839691662" expanded="true" signature="3422:3467" ph="UPDATE slide... " />
+            <marker date="1527839691662" expanded="true" signature="3906:4046" ph="SELECT slide... slides" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qtu404/present/slide/service/impl/SlideServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+          <folding>
+            <element signature="e#954#955#0" expanded="true" />
+            <element signature="e#1005#1006#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/playSlide.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="691">
+          <caret line="36" column="24" lean-forward="false" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/playPageLib.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+          <folding>
+            <marker date="1527850419631" expanded="true" signature="5731:5745" ph="..." />
+            <marker date="1527850419631" expanded="true" signature="5884:5898" ph="..." />
+            <marker date="1527850419631" expanded="true" signature="5964:5978" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qtu404/present/slide/vo/SlideVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+          <folding>
+            <element signature="e#337#338#0" expanded="true" />
+            <element signature="e#367#368#0" expanded="true" />
+            <element signature="e#413#414#0" expanded="true" />
+            <element signature="e#451#452#0" expanded="true" />
+            <element signature="e#484#485#0" expanded="true" />
+            <element signature="e#513#514#0" expanded="true" />
+            <element signature="e#557#558#0" expanded="true" />
+            <element signature="e#593#594#0" expanded="true" />
+            <element signature="e#625#626#0" expanded="true" />
+            <element signature="e#653#654#0" expanded="true" />
+            <element signature="e#695#696#0" expanded="true" />
+            <element signature="e#729#730#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/playPageInit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qtu404/present/slide/action/SlideAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="72" column="39" lean-forward="false" selection-start-line="72" selection-start-column="39" selection-end-line="72" selection-end-column="39" />
+          <folding>
+            <element signature="e#5537#5538#0" expanded="true" />
+            <element signature="e#5566#5567#0" expanded="true" />
+            <element signature="e#5610#5611#0" expanded="true" />
+            <element signature="e#5646#5647#0" expanded="true" />
+            <element signature="e#5678#5679#0" expanded="true" />
+            <element signature="e#5706#5707#0" expanded="true" />
+            <element signature="e#5748#5749#0" expanded="true" />
+            <element signature="e#5782#5783#0" expanded="true" />
+            <element signature="e#5844#5845#0" expanded="true" />
+            <element signature="e#5892#5893#0" expanded="true" />
           </folding>
         </state>
       </provider>

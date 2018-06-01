@@ -15,7 +15,8 @@ public class SlideRowMapper implements RowMapper<SlideVo> {
         slideVo.setPlay(rs.getString("play"));
         slideVo.setSlideId(rs.getString("slideId"));
         slideVo.setUserId(rs.getString("userId"));
-
+        slideVo.setTheme(rs.getString("theme"));
+        slideVo.setConfig(rs.getString("config"));
         return slideVo;
     }
 }

@@ -30,8 +30,9 @@ public class SlideAction extends ActionSupport {
     private String play;
     private String name;
     private String result;
+    private String config;
+    private String theme;
     private ObjectMapper objectMapper = new ObjectMapper();
-
 
 
     @Action(value = "findAllSlideByLogin", results = {
@@ -50,7 +51,9 @@ public class SlideAction extends ActionSupport {
             @Result(type = "json", params = {"root", "result"})
     })
     public String fetchSlideContentById() {
-        SlideVo slideVo = slideService.fetchSlideById(slideId);
+        Map session = ActionContext.getContext().getSession();
+        UserVo userVo = (UserVo) session.get("loginUser");
+        SlideVo slideVo = slideService.fetchSlideById(userVo, slideId);
         result = slideVo.getContent();
         return SUCCESS;
     }
@@ -58,9 +61,12 @@ public class SlideAction extends ActionSupport {
     @Action(value = "fetchSlidePlayById", results = {
             @Result(type = "json", params = {"root", "result"})
     })
-    public String fetchSlidePlayById() {
-        SlideVo slideVo = slideService.fetchSlideById(slideId);
-        result = slideVo.getPlay();
+    public String fetchSlidePlayById() throws JsonProcessingException {
+        Map session = ActionContext.getContext().getSession();
+        UserVo userVo = (UserVo) session.get("loginUser");
+        SlideVo slideVo = slideService.fetchSlideById(userVo, slideId);
+        slideVo.setContent("");
+        result = objectMapper.writeValueAsString(slideVo);
         return SUCCESS;
     }
 
@@ -106,7 +112,13 @@ public class SlideAction extends ActionSupport {
     public String modifySlideContent() {
         Map session = ActionContext.getContext().getSession();
         UserVo userVo = (UserVo) session.get("loginUser");
-        int rst = slideService.modifyContent(userVo, content, play, slideId);
+        SlideVo slideVo = new SlideVo();
+        slideVo.setConfig(config);
+        slideVo.setTheme(theme);
+        slideVo.setSlideId(slideId);
+        slideVo.setContent(content);
+        slideVo.setPlay(play);
+        int rst = slideService.modifyContent(userVo, slideVo);
         if (rst == 1) {
             result = "modifySuccess";
         } else {
@@ -157,6 +169,22 @@ public class SlideAction extends ActionSupport {
 
     public SlideService getSlideService() {
         return slideService;
+    }
+
+    public String getConfig() {
+        return config;
+    }
+
+    public void setConfig(String config) {
+        this.config = config;
+    }
+
+    public String getTheme() {
+        return theme;
+    }
+
+    public void setTheme(String theme) {
+        this.theme = theme;
     }
 
     public void setSlideService(SlideService slideService) {

@@ -17,10 +17,10 @@ public class SlideServiceImpl implements SlideService {
     private SlideDao slideDao;
 
     @Override
-    public int modifyContent(UserVo userVo, String content, String play, String slideId) {
-        SlideVo slideVo = slideDao.fetchSlideById(slideId);
-        if (slideVo.getUserId().equals(userVo.getUserId())) {//保证是自己的
-            return slideDao.modifyContent(content, play, slideId);
+    public int modifyContent(UserVo userVo, SlideVo slideVo) {
+        String userId = slideDao.fetchSlideById(slideVo.getSlideId()).getUserId();
+        if (userId.equals(userVo.getUserId())) {//保证是自己的
+            return slideDao.modifyContent(slideVo);
         } else {
             return 0;
         }
@@ -32,8 +32,18 @@ public class SlideServiceImpl implements SlideService {
     }
 
     @Override
-    public SlideVo fetchSlideById(String slideId) {
-        return slideDao.fetchSlideById(slideId);
+    public SlideVo fetchSlideById(UserVo userVo, String slideId) {
+        SlideVo slideVo = slideDao.fetchSlideById(slideId);
+        if (slideVo != null) {
+            if (userVo != null && userVo.getUserId().equals(slideVo.getUserId())) {
+                slideVo.setWhoPlay("owner");
+            } else {
+                slideVo.setWhoPlay("visitor");
+            }
+        } else {
+            return null;
+        }
+        return slideVo;
     }
 
     @Override

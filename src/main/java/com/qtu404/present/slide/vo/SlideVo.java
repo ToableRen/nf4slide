@@ -9,6 +9,33 @@ public class SlideVo {
     private String name;
     private String content;
     private String play;
+    private String config;
+    private String theme;
+    private String whoPlay;
+
+    public String getWhoPlay() {
+        return whoPlay;
+    }
+
+    public void setWhoPlay(String whoPlay) {
+        this.whoPlay = whoPlay;
+    }
+
+    public String getConfig() {
+        return config;
+    }
+
+    public void setConfig(String config) {
+        this.config = config;
+    }
+
+    public String getTheme() {
+        return theme;
+    }
+
+    public void setTheme(String theme) {
+        this.theme = theme;
+    }
 
     public String getSlideId() {
         return slideId;

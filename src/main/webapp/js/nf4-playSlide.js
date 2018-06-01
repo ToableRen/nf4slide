@@ -1,36 +1,11 @@
-var playHtmlCode;
-var beforeCode;
-var afterCode;
-var isDisplayPro = "progress: true,";
-var isDisplayNum = "slideNumber: true,";
+var isDisplayPro = "true,";
+var isDisplayNum = "true,";
 $("#nf4-menu__play_slides").click(function () {
-    playSlide();
-    var win = window.open("");
-    win.document.write(beforeCode + playHtmlCode + afterCode);
-    win.document.close();
+    alert("test");
 });
 
 function playSlide() {
-    var plug = $("#autoSlide option:selected").val() + $("#slideMethod option:selected").val() + $("#slideSpeed option:selected").val() + isDisplayPro + isDisplayNum;
-    beforeCode = "<!doctype html><html>" +
-        "<head><meta charset=\"utf-8\">" +
-        "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no\">" +
-        "<title>播放</title><link rel=\"stylesheet\" href=\"./js/plugin/reveal.js/css/reveal.css\">" + $("#themes option:selected").val() +
-        "<link rel=\"stylesheet\" href=\"./js/plugin/reveal.js/lib/css/zenburn.css\">" +
-        "<style>p{ }.reveal section img {margin:0px;background:none;border:none;box-shadow:none;max-width: 100%;max-height:100%;}</style>" +
-        "</head>" +
-        "<body>" +
-        "<image id=\"send\"src=\"img/damoo.png\" style=\"cursor:pointer;position:absolute;bottom:4%;right:120px;z-index: 997;height:75px;width:75px;display:none\"/>" +
-        "<div id=\"danmuPlace\" style=\"position:absolute;width:100%;height:75%;top:100px\"></div>" +
-        "<div class=\"btn-group\" role=\"\"  id=\"danmu-send-place\"style=\"position:absolute;bottom:0px;width:100%;height: 10%;background:white;z-index: 998;display:none\">" +
-        "<input  placeholder=\"请输入弹幕内容\" class=\"\" id=\"danmu-send-place-text\"type=\"text\" style=\"border-bottom-left-radius:15px;border-top-left-radius:15px;border:1px solid gray;position:absolute;top:15%;left:2%;font-size: 150%;height:70%;width:70%\">" +
-        "<button id=\"danmu-send-place-send\" class=\"\" style=\"cursor:pointer;position:absolute;top:15%;font-size: 150%;height:75%;width:13%;left:72%;border:1px solid gray;\">发送</button>" +
-        "<button id=\"danmu-send-place-cancel\" class=\"\" style=\"cursor:pointer;border-bottom-right-radius:15px;border-top-right-radius:15px;position:absolute;top:15%;font-size: 150%;height:75%;width:13%;left:85%;border:1px solid gray;\">关闭</button>" +
-        "</div>" +
-        "<div class=\"reveal\">" +
-        "<div class=\"slides\" id=\"slides\">";
-    afterCode = "</div></div><script src=\"./js/plugin/reveal.js/lib/js/head.min.js\"></script><script src=\"./js/plugin/reveal.js/js/reveal.js\"></script><script>Reveal.initialize({" + plug + "cnter:false,dependencies: [{ src: 'plugin/markdown/marked.js' },{ src: 'plugin/markdown/markdown.js' },{ src: 'plugin/notes/notes.js', async: true },{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { } }]});</script></body></html>";
-    playHtmlCode = "";
+    var playHtmlCode = "";
     $(".nf4-slide").each(function () { //循环每一个幻灯片
         var ExId = $(this).attr("id").substr(6);
         playHtmlCode = playHtmlCode + "<section> <div style=\"height:700px;width:960px\">";
@@ -80,36 +55,6 @@ function playSlide() {
             playHtmlCode = playHtmlCode + "</div>";
         });
 
-//		//代码
-//		var ExCodeId = 1;
-//		$("#tabs-" + ExId + " .nf4-code").each(function() { //循环幻灯片内每一个代码组件
-//			var styleCode = "position:absolute;";
-//			styleCode = styleCode + "top:" + $(this).css("top") + ";"; //第一层
-//			styleCode = styleCode + "left:" + $(this).css("left") + ";";
-//			styleCode = styleCode + "z-index:" + $(this).css("z-index") + ";";
-//			styleCode = "style=\"" + styleCode + "\"";
-//			playHtmlCode = playHtmlCode + "<div " + styleCode + ">";
-////			html2canvas($("#nf4-code-2"), {
-////				onrendered : function(canvas) {
-////					var coding = canvas.toDataURL();
-////					console.log(coding);
-////					var str = "";
-////					str = "<img src=\"" + coding + "\">";
-////					alert("begin");
-////					playHtmlCode = playHtmlCode +str;
-////					alert("end");
-////				},allowTaint:true
-////			});
-//			
-//			styleCode = "";
-//			var container = $("#" + $(this).attr("id")).html(); //第二层
-//			styleCode = styleCode + "width:" + $(this).css("width") + ";";
-//			styleCode = styleCode + "height:" + $(this).css("height") + ";";
-//			styleCode = "style=\"" + styleCode + "\"";
-//			playHtmlCode = playHtmlCode +container;
-//			playHtmlCode = playHtmlCode + "</div>";
-//			ExCodeId++;
-//		});
 
         //代码
         $("#tabs-" + ExId + " .nf4-code").each(function () {//循环幻灯片内每一个代码组件
@@ -192,6 +137,7 @@ function playSlide() {
         });
         playHtmlCode = playHtmlCode + "</div></section>";
     });
+    return playHtmlCode;
 }
 
 $(function () {
@@ -223,16 +169,16 @@ $("#closeDialog").button().click(function () {
     $("#dialog-form").dialog("close");
 });
 $("#proTrue").click(function () {
-    isDisplayPro = "progress: true,";
+    isDisplayPro = "true,";
 });
 $("#proFalse").click(function () {
-    isDisplayPro = "progress: false,";
+    isDisplayPro = "false,";
 });
 $("#numTrue").click(function () {
-    isDisplayNum = "slideNumber: true,";
+    isDisplayNum = "true,";
 });
 $("#numFalse").click(function () {
-    isDisplayNum = "slideNumber: false,";
+    isDisplayNum = "false,";
 });
 
 $("#menu__share").click(function () {

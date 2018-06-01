@@ -54,7 +54,7 @@ function addAPPT(workplace, id, name) {
     $("#pptPlay-" + ExId).append("<span id=\"pptPlay-span-" + ExId + "\">播放</span>");
     $("#pptPlay-span-" + ExId).addClass("controlBtn");
     $("#pptPlay-" + ExId).click(function () {
-        window.open("Play.jsp?slideId=" + id, "_blank");
+        window.open("toSlidePlayPage?slideId=" + id, "_blank");
     });
 
 
@@ -66,7 +66,7 @@ function addAPPT(workplace, id, name) {
     $("#pptSpeak-" + ExId).append("<span id=\"pptSpeak-span-" + ExId + "\">演讲</span>");
     $("#pptSpeak-span-" + ExId).addClass("controlBtnSpeak");
     $("#pptSpeak-" + ExId).click(function () {
-        window.open("Play.jsp?slideId=" + id + "&control=true", "_blank");
+        window.open("toSlidePlayPage?slideId=" + id + "&control=true", "_blank");
     });
 
     $("#pptControl-" + ExId).append("<a id=\"pptAlter-" + ExId + "\"></a>");

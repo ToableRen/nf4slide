@@ -8,7 +8,6 @@ var drawExId = 1;
 var lineExId = 1;
 
 var time_clock;
-////////////////////////////////////
 jQuery.fn.contextPopup = function (menuData) {
     // Define default settings
     var settings = {
@@ -449,123 +448,6 @@ function addImageToSlideByUpLoad(id, imgSrc) {
     /*8月23日夜改,添加鼠标右击事件 end edit*/
 }
 
-/*添加图片*/
-function addImageToSlide(id, this_id) {
-    var idExtend = imageExId;
-    var idBase = "nf4-image-";
-    imageExId++;
-    /*-------------------------------------先添加外层外面缩放和移动的div-----------------------------------*/
-    $(id).append("<div id=\"nf4-image-" + idExtend + "\"></div>");
-    $("#" + idBase + idExtend).addClass("nf4-image nf4-module"); //增加指定类名
-    $("#" + idBase + idExtend).css("position", "absolute");
-
-
-    //再往外层div里面添加具体负责移动、缩放的点, 以及编辑功能的div
-
-    /*被取消的拖动方式*/
-    //$("#"+idBase + idExtend).append("<div class=\"draggable-handle draggable-handle-image\"></div>");//负责移动的点,
-    //idBase + idExtend).draggable({handle: ".draggable-handle",containment:id, scroll: false});//指定拖动的div
-    /*被取消的拖动方式*/
-
-    //负责图片的image
-    $("#" + idBase + idExtend).append("<img data-selected=\"false\" id=\"imgPre-" + idExtend + "\">");
-    nf4_rxk_preImg(this_id, "imgPre-" + idExtend);
-
-
-    //负责缩放的8个div
-    $("#" + idBase + idExtend).append("<div class=\"ui-resizable-handle ui-resizable-nw\"></div>");
-    $("#" + idBase + idExtend).append("<div class=\"ui-resizable-handle ui-resizable-ne\"></div>");
-    $("#" + idBase + idExtend).append("<div class=\"ui-resizable-handle ui-resizable-sw\"></div>");
-    $("#" + idBase + idExtend).append("<div class=\"ui-resizable-handle ui-resizable-se\"></div>");
-    $("#" + idBase + idExtend).append("<div class=\"ui-resizable-handle ui-resizable-n\"></div>");
-    $("#" + idBase + idExtend).append("<div class=\"ui-resizable-handle ui-resizable-s\"></div>");
-    $("#" + idBase + idExtend).append("<div class=\"ui-resizable-handle ui-resizable-e\"></div>");
-    $("#" + idBase + idExtend).append("<div class=\"ui-resizable-handle ui-resizable-w\"></div>");
-
-    //适应大小和位置
-
-    $("#imgPre-" + idExtend).css("height", "100%");
-    $("#imgPre-" + idExtend).css("width", "100%");
-    $("#imgPre-" + idExtend).css("cursor", "move");
-    $("#imgPre-" + idExtend).addClass("nf4-image-editor");
-    //最后外层div指定内层哪些div负责缩放和移动
-
-    $("#" + idBase + idExtend).resizable({
-        handles: {
-            'nw': '.ui-resizable-nw',
-            'ne': '.ui-resizable-ne',
-            'sw': '.ui-resizable-sw',
-            'se': '.ui-resizable-se',
-            'n': '.ui-resizable-n',
-            'e': '.ui-resizable-e',
-            's': '.ui-resizable-s',
-            'w': '.ui-resizable-w'
-        },
-        containment: id
-    });
-
-    /*新的拖动方式*/
-    $("#" + idBase + idExtend)
-        .draggable({
-            containment: id,
-            scroll: false
-        });
-    //右键菜单
-    $("#" + idBase + idExtend).contextPopup({
-        //title: '选项',
-        items: [
-
-            {
-                label: '删除此图片',
-                icon: 'http://120.24.186.116/Myicons/nf4-view-delete.png',
-                action: function () {
-                    $("#" + idBase + idExtend).remove();
-                }
-            },
-            {
-                label: '层次:置顶',
-                icon: 'http://120.24.186.116/Myicons/nf4-view-up.png',
-                action: function () {
-                    $("#" + idBase + idExtend).css("z-index", searchMaxZindex() + 1)
-                }
-            },
-            //null, /* null can be used to add a separator to the menu items */
-            {
-                label: '层次:置底',
-                icon: 'http://120.24.186.116/Myicons/nf4-view-down.png',
-                action: function () {
-                    $("#" + idBase + idExtend).css("z-index", searchMinZindex() - 1)
-                }
-            },
-            {
-                label: '属性',
-                icon: 'http://120.24.186.116/Myicons/nf4-attr.png',
-                action: function () {
-                    $("#ImageProperty").trigger("click");
-                    $("#" + idBase + idExtend).find("img")[0].setAttribute("data-selected", "true")
-                }
-            }
-        ]
-    });
-    $("#" + idBase + idExtend).css('z-index', searchMaxZindex() + 1);
-    /*8月23日夜改,添加鼠标右击事件 end edit*/
-}
-;
-/*****  图片添加功能代码----任小康  */
-
-/*获取图片的本地路径*/
-function nf4_rxk_preImg(sourceId, targetId) {
-    if (typeof FileReader === 'undefined') {
-        alert('Your browser does not support FileReader...');
-        return;
-    }
-    var reader = new FileReader();
-    reader.onload = function (e) {
-        var img = document.getElementById(targetId);
-        img.src = this.result;
-    };
-    reader.readAsDataURL(document.getElementById(sourceId).files[0]);
-}
 
 /*寻找最小\最大的z-index*/
 function searchMaxZindex() {
@@ -972,21 +854,34 @@ function addCodeToSlide(id) {
 
 
 $("#nf4-menu__save").click(function () {
-    upLoadSlides();
+    saveSlide();
 });
 
-function upLoadSlides() {
+function saveSlide() {
     shwoPopovers("nf4-Popovers__on-save");
+    var plugValues_ = $("#autoSlide option:selected").val() + $("#slideMethod option:selected").val() + $("#slideSpeed option:selected").val() + isDisplayPro + isDisplayNum;
+    var plugValues = {
+        "transition": $("#slideMethod option:selected").val(),
+        "transitionSpeed": $("#slideSpeed option:selected").val(),
+        "autoSlide": $("#autoSlide option:selected").val(),
+        "progress": isDisplayPro,
+        "slideNumber": isDisplayNum
+    }
     var upLoadData = "";
     $(".nf4-slide").each(function () { //循环每一个幻灯片
         var ExId = $(this).attr("id").substr(6);
         upLoadData = upLoadData + $("#tabs-" + ExId).html() + "<--nf4-->";
     });
-    playSlide();
+
+    var playHtmlCode = playSlide();
+
+
     $.post("modifySlideContent", {
         slideId: slideId,
         content: upLoadData,
-        play: beforeCode + playHtmlCode + afterCode
+        play: playHtmlCode,
+        theme: $("#nf4-slide-themes option:selected").val(),
+        config: JSON.stringify(plugValues)
     }, function (msg) {
         if (msg == "modifySuccess") {
             shwoPopovers("nf4-Popovers__auto-save", 5000);
@@ -999,24 +894,7 @@ function upLoadSlides() {
 //自动保存函数
 $(function timeActve() {
     time_clock = window.setInterval(function () {
-        shwoPopovers("nf4-Popovers__on-save");
-        var upLoadData = "";
-        $(".nf4-slide").each(function () { //循环每一个幻灯片
-            var ExId = $(this).attr("id").substr(6);
-            upLoadData = upLoadData + $("#tabs-" + ExId).html() + "<--nf4-->";
-        });
-        playSlide();
-        $.post("modifySlideContent", {
-            slideId: slideId,
-            content: upLoadData,
-            play: beforeCode + playHtmlCode + afterCode
-        }, function (msg) {
-            if (msg == "modifySuccess") {
-                shwoPopovers("nf4-Popovers__auto-save", 5000);
-            } else {
-                alert("保存失败");
-            }
-        });
+        saveSlide();
     }, 3 * 60 * 1000);
 });
 

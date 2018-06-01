@@ -6,6 +6,7 @@
     <constant name="struts.devMode" value="true"/>
     <constant name="struts.enable.DynamicMethodInvocation" value="true"></constant>
     <constant name="struts.convention.package.locators" value="action,actions,struts,struts2,controller"></constant>
+    <!--<constant name="struts.action.excludePattern" value="/js/.*?,/css/.*?"/>-->
 
     <package name="slide" extends="struts-default">
 
@@ -22,8 +23,8 @@
             <result>/edit.html</result>
         </action>
 
-        <!--到登陆界面-->
-
+        <action name="toSlidePlayPage">
+            <result>/playSlide.html</result>
+        </action>
     </package>
-
 </struts>

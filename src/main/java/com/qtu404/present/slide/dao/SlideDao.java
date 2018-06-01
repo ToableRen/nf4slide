@@ -6,7 +6,7 @@ import java.util.ArrayList;
 
 public interface SlideDao {
 
-    public int modifyContent(String content, String play, String slideId);
+    public int modifyContent(SlideVo slideVo);
 
     /**
      * 返回被添加的slideid

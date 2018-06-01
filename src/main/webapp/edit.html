@@ -292,51 +292,51 @@
             <label for="autoSlide" class="col-sm-4 text-center form-control">自动播放</label>
             <div class="col-sm-8">
                 <select id="autoSlide" class="form-control text-center">
-                    <option value="autoSlide:0,">无自动播放</option>
-                    <option value="autoSlide:3000,">每3秒自动播放下一页</option>
-                    <option value="autoSlide:5000,">每5秒自动播放下一页</option>
-                    <option value="autoSlide:7000,">每7秒自动播放下一页</option>
+                    <option value="0">无自动播放</option>
+                    <option value="3000">每3秒自动播放下一页</option>
+                    <option value="5000">每5秒自动播放下一页</option>
+                    <option value="7000">每7秒自动播放下一页</option>
                 </select>
             </div>
         </div>
         <div class="form-group row ">
-            <label for="themes" class="col-sm-4 text-center form-control">主题</label>
+            <label for="nf4-slide-themes" class="col-sm-4 text-center form-control">主题</label>
             <div class="col-sm-8">
-                <select id="themes" class="form-control text-center">
+                <select id="nf4-slide-themes" class="form-control text-center">
                     <option
-                            value='<link rel="stylesheet" href="./js/plugin/reveal.js/css/theme/sky.css">'
+                            value='sky'
                             style="color: darkgray ;background: lightblue ">天空风格
                     </option>
                     <option
-                            value='<link rel="stylesheet" href="./js/plugin/reveal.js/css/theme/black.css">'
+                            value='black'
                             style="color: white;background: black">酷黑风格
                     </option>
                     <option
-                            value='<link rel="stylesheet" href="./js/plugin/reveal.js/css/theme/white.css">'
+                            value='white'
                             style="color: black;background: white">炫白风格
                     </option>
                     <option
-                            value='<link rel="stylesheet" href="./js/plugin/reveal.js/css/theme/league.css">'
+                            value='league'
                             style="color: white ;background: Gray ">奶奶灰风格
                     </option>
                     <option
-                            value='<link rel="stylesheet" href="./js/plugin/reveal.js/css/theme/beige.css">'
+                            value='beige'
                             style="color: darkred  ;background: Beige ">米色风格
                     </option>
                     <option
-                            value='<link rel="stylesheet" href="./js/plugin/reveal.js/css/theme/moon.css">'
+                            value='moon'
                             style="color: floralwhite ;background: midnightblue ">夜色风格
                     </option>
                     <option
-                            value='<link rel="stylesheet" href="./js/plugin/reveal.js/css/theme/serif.css">'
+                            value='serif'
                             style="color: darkgray ;background:moccasin ">卡布奇风格
                     </option>
                     <option
-                            value='<link rel="stylesheet" href="./js/plugin/reveal.js/css/theme/simple.css">'
+                            value='simple'
                             style="color: darkslategrey  ;background: whitesmoke  ">简约风格
                     </option>
                     <option
-                            value='<link rel="stylesheet" href="./js/plugin/reveal.js/css/theme/solarized.css">'
+                            value='solarized'
                             style="color: darkgreen ;background: mintcream ">曝光风格
                     </option>
                 </select>
@@ -346,12 +346,12 @@
             <label for="slideMethod" class="col-sm-4 text-center form-control">滑动特效</label>
             <div class="col-sm-8">
                 <select id="slideMethod" class="form-control text-center">
-                    <option value="transition: 'slide',">滑动变换</option>
-                    <option value="transition: 'fade',">渐逝变换</option>
-                    <option value="transition: 'convex',">突出变换</option>
-                    <option value="transition: 'concave',">凹陷变换</option>
-                    <option value="transition: 'zoom',">缩放变换</option>
-                    <option value="transition: 'none',">无变换样式</option>
+                    <option value="slide">滑动变换</option>
+                    <option value="fade">渐逝变换</option>
+                    <option value="convex">突出变换</option>
+                    <option value="concave">凹陷变换</option>
+                    <option value="zoom">缩放变换</option>
+                    <option value="none">无变换样式</option>
                 </select>
             </div>
         </div>
@@ -369,9 +369,9 @@
             <label for="slideSpeed" class="col-sm-4 text-center form-control">翻页速度</label>
             <div class="col-sm-8">
                 <select id="slideSpeed" class="form-control text-center">
-                    <option value="transitionSpeed: 'default',">普通速度</option>
-                    <option value="transitionSpeed: 'fast',">较快的速度</option>
-                    <option value="transitionSpeed: 'slow',">较慢的速度</option>
+                    <option value="default">普通速度</option>
+                    <option value="fast">较快的速度</option>
+                    <option value="slow">较慢的速度</option>
                 </select>
             </div>
         </div>
@@ -884,7 +884,7 @@
 <script src="js/nf4-script-dx.js" type="text/javascript"></script>
 <script src="js/nf4-playSlide.js" type="text/javascript"></script>
 <!--<script src="../../js/plugin/webuploader-0.1.5/webuploader.js" type="text/java"></script>-->
-<script src="js/nf4_eidt_script_wildhunt_unique.js"></script>
+<script src="js/nf4_img_webuploader.js"></script>
 <!-- 无javascript提示 -->
 <script>
     var slideId = null;

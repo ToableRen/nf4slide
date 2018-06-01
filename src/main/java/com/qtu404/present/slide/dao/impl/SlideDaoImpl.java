@@ -26,14 +26,17 @@ public class SlideDaoImpl implements SlideDao {
 
     private static final String DEFAULTNAME = "new slide";
 
-    public int modifyContent(final String content, final String play, final String slideId) {
+    @Override
+    public int modifyContent(final SlideVo slideVo) {
         int rst = 0;
-        String sql = "UPDATE slides SET content = ?,play = ? WHERE  slideId = ?";
+        String sql = "UPDATE slides SET  content = ?,play = ? ,config = ?,theme = ? WHERE  slideId = ?";
         rst = jdbcTemplate.update(sql, new PreparedStatementSetter() {
             public void setValues(PreparedStatement ps) throws SQLException {
-                ps.setString(1, content);
-                ps.setString(2, play);
-                ps.setString(3, slideId);
+                ps.setString(1, slideVo.getContent());
+                ps.setString(2, slideVo.getPlay());
+                ps.setString(3, slideVo.getConfig());
+                ps.setString(4, slideVo.getTheme());
+                ps.setString(5, slideVo.getSlideId());
             }
         });
         return rst;
@@ -42,9 +45,10 @@ public class SlideDaoImpl implements SlideDao {
     /**
      * 返回被添加的slideid
      */
+    @Override
     public int addNewSlide(final String userId) {
 
-        String sql = "insert into slides VALUES (?,?,?,'','','true')";
+        String sql = "insert into slides VALUES (?,?,?,'','','true','','league')";
         final int slide_int = fetchMaxSlideId() + 1;
         final String slideId = String.valueOf(slide_int);
         jdbcTemplate.update(sql, new PreparedStatementSetter() {
@@ -66,6 +70,7 @@ public class SlideDaoImpl implements SlideDao {
         return maxId;
     }
 
+    @Override
     public SlideVo fetchSlideById(String slideId) {
         SlideVo slideVo = null;
         String sql = "SELECT * FROM slides WHERE  slideId = ?";
@@ -75,6 +80,7 @@ public class SlideDaoImpl implements SlideDao {
         return slideVo;
     }
 
+    @Override
     public int delSlideById(final String slideId) {
         int rst = 0;
         String sql = "UPDATE slides SET slides.exit = 'false'  WHERE  slideId = ?";
@@ -86,6 +92,7 @@ public class SlideDaoImpl implements SlideDao {
         return rst;
     }
 
+    @Override
     public int modifySlideName(final String sildeId, final String slideName) {
         int rst = 0;
         String sql = "UPDATE slides SET name = ? WHERE  slideId = ?";
@@ -98,6 +105,7 @@ public class SlideDaoImpl implements SlideDao {
         return rst;
     }
 
+    @Override
     public ArrayList<SlideVo> findAllSlideByUserId(String userId) {
         ArrayList<SlideVo> slideVos = null;
         String sql = "SELECT slides.userId,slides.name,slides.slideId FROM slides " +
