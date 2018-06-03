@@ -7,12 +7,16 @@ function pageContentInit(playSlideId, isControl, data) {
     var config = eval('(' + json.config + ')');
     Reveal.initialize({
         center: false,
-        autoSlide: config.autoSlide,//自动播放
         transitionSpeed: config.transitionSpeed,//换页速度
         transition: config.transition,//换页方式
         progress: config.progress,//是否进度条
         slideNumber: config.slideNumber//是否显示页数
     });
+
+    if (config.autoSlide != "0") {
+        Reveal.configure({autoSlide: config.autoSlide});//自动播放
+    }
+
     if (isControl == "true") {
         danmuInit(playSlideId, json.whoPlay);//弹幕初始化
         syncControlInit(playSlideId, json.whoPlay);//同步翻页初始化

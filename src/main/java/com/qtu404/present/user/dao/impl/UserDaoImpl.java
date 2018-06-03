@@ -19,9 +19,36 @@ public class UserDaoImpl implements UserDao {
         this.jdbcTemplate = new JdbcTemplate(dataSource);
     }
 
+    @Override
+    public UserVo fetchUserById(String userid) {
+        UserVo userVo = new UserVo();
+        String sql = "SELECT * FROM account WHERE  " +
+                "account.userId = ?";
+
+        Object[] args = {userid};
+        int[] ProType = {Types.VARCHAR};
+
+        userVo = jdbcTemplate.queryForObject(sql, args, ProType, new UserRowMapper());
+        return userVo;
+    }
+
+    @Override
+    public int modifyUser(final UserVo userVo) {
+        String sql = "UPDATE account SET account.username = ?,account.phone = ?,account.password = ?,account.avator = ? WHERE account.userId = ?";
+        return jdbcTemplate.update(sql, new PreparedStatementSetter() {
+            public void setValues(PreparedStatement ps) throws SQLException {
+                ps.setString(1, userVo.getUsername());
+                ps.setString(2, userVo.getPhoneNum());
+                ps.setString(3, userVo.getPassword());
+                ps.setString(4, userVo.getAvator());
+                ps.setString(5, userVo.getUserId());
+            }
+        });
+    }
+
     public String addNewUser(final UserVo user) {
 
-        String sql = "insert into account VALUES (?,?,?,?)";
+        String sql = "insert into account VALUES (?,?,?,?,'')";
         final String userId = String.valueOf(ftechMaxId() + 1);
         jdbcTemplate.update(sql, new PreparedStatementSetter() {
             public void setValues(PreparedStatement ps) throws SQLException {

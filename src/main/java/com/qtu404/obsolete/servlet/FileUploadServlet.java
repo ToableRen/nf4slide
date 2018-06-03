@@ -14,7 +14,7 @@ import javax.servlet.http.HttpServletResponse;
 
 import com.qtu404.obsolete.dataBase.DataBaseManager;
 import com.qtu404.obsolete.file.FileManager;
-import com.qtu404.obsolete.file.uploadSlide;
+import com.qtu404.obsolete.file.UploadSlideUnit;
 import org.apache.commons.fileupload.FileItem;
 import org.apache.commons.fileupload.disk.DiskFileItemFactory;
 import org.apache.commons.fileupload.servlet.ServletFileUpload;
@@ -142,9 +142,9 @@ public class FileUploadServlet extends HttpServlet {
 
         ArrayList<String> list = new ArrayList<String>();
         File file2 = new File(destDirName);
-        uploadSlide.doPPT2007toImage(file, file2, list, maxSlideId + "");
-        String imgCode = uploadSlide.jpegToImgString(list, userId);
-        String playCode = uploadSlide.jpegToImgPlay(list, userId);
+        UploadSlideUnit.doPPT2007toImage(file, file2, list, maxSlideId + "");
+        String imgCode = UploadSlideUnit.jpegToImgString(list, userId);
+        String playCode = UploadSlideUnit.jpegToImgPlay(list, userId);
         System.out.println(playCode);
         FileManager.writeInto(imgCode, userId + "/" + maxSlideId);
         FileManager.writeInto(playCode, userId + "/" + maxSlideId + "_play");

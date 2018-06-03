@@ -14,6 +14,7 @@ public class UserRowMapper implements RowMapper<UserVo> {
         userVo.setPhoneNum(rs.getString("phone"));
         userVo.setUserId(rs.getString("userId"));
         userVo.setUsername(rs.getString("username"));
+        userVo.setAvator(rs.getString("avator"));
 
         return userVo;
     }

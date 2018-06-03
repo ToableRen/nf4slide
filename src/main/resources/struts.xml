@@ -26,5 +26,9 @@
         <action name="toSlidePlayPage">
             <result>/playSlide.html</result>
         </action>
+
+        <action name="toAvatorEditpage">
+            <result>/avator.html</result>
+        </action>
     </package>
 </struts>

@@ -916,6 +916,21 @@
             }
         });
     }
+    $.ajax({
+        url: "fetchLoginInfo",
+        type: "POST",
+        dataType: "JSON",
+        success: function (data) {
+            var json = eval('(' + data + ')');
+            $(".nf4-navbar__user-name").html(json.username);
+            if (json.avator != "") {
+                $('.user-avator__img').attr("src", json.avator + "?x=" + Math.random());
+            }
+        },
+        error: function (e) {
+            alert("请检查网络连接！！");
+        }
+    })
 </script>
 <noscript>
     <p>本页面需要启用javascript支持</p>

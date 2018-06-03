@@ -8,4 +8,8 @@ public interface UserDao {
     public UserVo fetchUserByPhone(String phoneNum);
 
     public UserVo fetchUserByLogin(String phoneNum, String password);
+
+    int modifyUser(UserVo userVo);
+
+    public UserVo fetchUserById(String userid);
 }

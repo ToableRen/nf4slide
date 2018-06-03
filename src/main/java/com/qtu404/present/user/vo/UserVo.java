@@ -5,6 +5,7 @@ public class UserVo {
     String username;
     String phoneNum;
     String password;
+    String avator;
 
     @Override
     public String toString() {
@@ -18,6 +19,14 @@ public class UserVo {
 
     public String getPassword() {
         return password;
+    }
+
+    public String getAvator() {
+        return avator;
+    }
+
+    public void setAvator(String avator) {
+        this.avator = avator;
     }
 
     public void setPassword(String password) {

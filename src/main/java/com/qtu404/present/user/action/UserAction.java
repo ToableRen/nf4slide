@@ -1,6 +1,7 @@
 package com.qtu404.present.user.action;
 
 import com.aliyuncs.exceptions.ClientException;
+import com.fasterxml.jackson.core.JsonProcessingException;
 import com.opensymphony.xwork2.ActionContext;
 import com.opensymphony.xwork2.ActionSupport;
 import com.qtu404.present.log.dao.impl.LogDaoImpl;
@@ -33,6 +34,7 @@ public class UserAction extends ActionSupport {
     private String password;
     private String username;
     private String result;
+    private String avatorImgData;
 
     /**
      * 得到当前用户信息
@@ -47,6 +49,23 @@ public class UserAction extends ActionSupport {
         return SUCCESS;
     }
 
+    /**
+     * 修改头像
+     */
+    @Action(value = "modifyUserAvator", results = {
+            @Result(type = "json", params = {"root", "result"})
+    })
+    public String modifyUserAvator() throws JsonProcessingException {
+        Map session = ActionContext.getContext().getSession();
+        UserVo userVo = (UserVo) session.get("loginUser");
+        String realPath = ServletActionContext.getServletContext().getRealPath("/");
+        String[] base64_str = avatorImgData.split(",");
+        userService.modifyAvator(userVo, base64_str[1], realPath);
+        userVo = userService.fetchUserById(userVo.getUserId());
+        result = new ObjectMapper().writeValueAsString(userVo);
+        return SUCCESS;
+    }
+
 
     /**
      * 验证电话号码是否已被使用
@@ -55,7 +74,6 @@ public class UserAction extends ActionSupport {
             @Result(type = "json", params = {"root", "result"})
     })
     public String verifyPhone() throws Exception {
-
         UserVo userVo = userService.fetchUserByPhone(phone);
         result = "true";
         if (userVo != null) {//不通过
@@ -160,5 +178,13 @@ public class UserAction extends ActionSupport {
 
     public void setUserService(UserService userService) {
         this.userService = userService;
+    }
+
+    public String getAvatorImgData() {
+        return avatorImgData;
+    }
+
+    public void setAvatorImgData(String avatorImgData) {
+        this.avatorImgData = avatorImgData;
     }
 }

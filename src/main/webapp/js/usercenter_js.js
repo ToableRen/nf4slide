@@ -11,23 +11,23 @@ $('#addPPT').click(function () {
 });
 $("form")[0].reset();
 $("#SlideImport-input").val("");
-$('#submit').click(function () {
-    if ($("#SlideImport-input").val() != "") {
-        $.confirm({
-            title: '提示!',
-            content: '正在提交文件...请稍候。请勿关闭本对话框!',
-            type: 'blue'
-        });
-        $("form").submit();
-    }
-    else {
-        $.confirm({
-            title: '警告!',
-            content: '尚未选择文件!',
-            type: 'blue'
-        });
-    }
-})
+// $('#submit').click(function () {
+//     if ($("#SlideImport-input").val() != "") {
+//         $.confirm({
+//             title: '提示!',
+//             content: '正在提交文件...请稍候。请勿关闭本对话框!',
+//             type: 'blue'
+//         });
+//         $("form").submit();
+//     }
+//     else {
+//         $.confirm({
+//             title: '警告!',
+//             content: '尚未选择文件!',
+//             type: 'blue'
+//         });
+//     }
+// })
 
 //退出登陆
 $("#nf4-logout").click(function () {
